@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0" />-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,maximum-scale=1.0"/>
+    <title>同城打车</title>
+    <!-- <link rel="stylesheet" href="./css/swiper.min.css"> -->
+    <link rel="stylesheet" href="__FRIEND__/css/base.css" />
+    <link rel="stylesheet" href="__FRIEND__/css/index.css" />
+
+    <script>
+        ~(function anonymous(window) {
+            let setREM = function setREM() {
+                let wWith = document.documentElement.clientWidth;
+                const dWith = 750;
+                if (wWith >= dWith) {
+                    document.documentElement.style.fontSize = `100px`;
+                    return;
+                }
+                document.documentElement.style.fontSize =
+                    (wWith / dWith) * 100 + "px";
+            };
+            setREM();
+            window.addEventListener("resize", setREM);
+        })(window);
+    </script>
+</head>
+
+<body>
+<header>
+    <img src="__FRIEND__/images/header.jpg" alt="" />
+</header>
+<main class="index">
+    <div class="bannerText">
+        <p>同城打车</p>
+        <p><span>哈尔滨</span>全城招募司机加入</p>
+    </div>
+
+    <div class="introduction">
+        同城打车，黑龙江凌云网络技术有限公司旗下的全国性网约车平台，哈尔滨人自己的网约车平台。
+    </div>
+    <div class="centerWrap">
+        <img src="__FRIEND__/images/haibao.png" style="margin-top: 0.3rem;"  alt="">
+        <!--<div class="title">零抽佣</div>-->
+        <!--<p>-->
+            <!--开城首月零抽佣，为了让司机更了解平台，多赚钱，平台采取零抽佣，少抽佣政策，保障司机收入更高。-->
+        <!--</p>-->
+        <!--<div class="title otherBack">单量高</div>-->
+        <!--<p>-->
+            <!--同城打车平台单量之外，还对接了很多流量平台订单，保障加入司机的接单量。-->
+        <!--</p>-->
+        <!-- <div class="title">政策优</div>
+        <p>
+            平台为首批加入的司机开通分销二维码功能，新用户扫 码后终身绑定推广司机名下，用户在平台消费每单即可 有一定返佣给司机，返佣比例2％-5％，在别人家当司 机，在同城当老板。
+        </p> -->
+        <div class="title">现金接单奖励</div>
+        <p>
+            同城打车接单有奖：每日首单奖励5元，另有活动期间累计完成20单奖励30元。活动日期：2021年3月12日至2021年3月14日，快来上线接单吧！
+        </p>
+        <img class='bgImg' src="__FRIEND__/images/204134939.png" alt="">
+    </div>
+    <!--<form action="" method="post" >-->
+        <div class="registWrap">
+            <h1>我要注册</h1>
+            <div>
+                <a>*</a><span>您的姓名</span>
+            </div>
+            <input type="text" name="username" id="username">
+            <div>
+                <a>*</a><span>联系方式</span>
+            </div>
+            <input type="number" name="phone" id="phone" oninput="if(value.length>11)value=value.slice(0,11)">
+            <div>
+                <a>*</a><span>车辆型号</span>
+            </div>
+            <input type="text" name="model" id="model">
+            <button id="submit">提交</button>
+        </div>
+    <!--</form>-->
+    <div class="gongzhonghao">
+        <h1>关注公众号下载</h1>
+        <img src="__FRIEND__/images/erweima1.jpg" alt="">
+    </div>
+    <div class="line"></div>
+    <div class="scan">
+        <h1>提示：直接扫码即可下载司机端，注册即可</h1>
+        <img src="__FRIEND__/images/erweima.png" alt="">
+    </div>
+    <div class="phone">
+        服务热线：400-607-7775
+    </div>
+
+    <div class='mark' id='mark'>
+        <div class='alert'>
+            <div  id='alert'></div>
+            <div id='confirm'>确定</div>
+        </div>
+    </div>
+</main>
+<script src="__FRIEND__/js/zepto.js"></script>
+<!--<script src="__FRIEND__/js/index.js"></script>-->
+<script src="__FRIEND__/js/jweixin-1.0.0.js"></script>
+</body>
+<script>
+//    $('#mark').toggle();
+    $('#confirm').on('click',()=>{
+        $('#mark').toggle();
+    });
+$('#submit').on('click',()=>{
+    adddriver();
+});
+    wx.config({
+        debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+        appId: '{$share.appId}',   // 必填，公众号的唯一标识
+        timestamp:'{$share.timestamp}' , // 必填，生成签名的时间戳
+        nonceStr: '{$share.nonceStr}', // 必填，生成签名的随机串
+        signature: '{$share.signature}',// 必填，签名
+        jsApiList: [
+            'checkJsApi',
+            'onMenuShareTimeline',
+            'onMenuShareAppMessage'
+        ] // 必填，需要使用的JS接口列表
+    });
+
+    wx.ready(function () {
+        wx.checkJsApi({
+            jsApiList: ['chooseImage','onMenuShareTimeline','onMenuShareAppMessage'], // 需要检测的JS接口列表，所有JS接口列表见附录2,
+            success: function(res) {
+            }
+        });
+
+        //分享到朋友圈接口
+        wx.onMenuShareTimeline({
+            title: '{$share.title}', // 分享标题
+            link: '{$share.url}', // 分享链接
+            imgUrl: 'https://tcdc-backstage.oss-cn-beijing.aliyuncs.com/20200813/20201124135359.png', // 分享图标
+            success: function () {
+//                msg("分享朋友圈成功");
+//                alert("分享朋友圈成功");
+            },
+            cancel: function () {
+                // 用户取消分享后执行的回调函数
+//                msg("取消朋友圈分享");
+//                alert("取消朋友圈分享");
+            },
+            fail: function (res) {
+//                alert(res);
+            }
+        });
+
+        //分享给好友接口
+        wx.onMenuShareAppMessage({
+            title: '{$share.title}', // 分享标题
+            desc: '同城打车哈尔滨招募', // 分享描述
+            link: '{$share.url}', // 分享链接
+            imgUrl: 'https://tcdc-backstage.oss-cn-beijing.aliyuncs.com/20200813/20201124135359.png', // 分享图标
+            type: '', // 分享类型,music、video或link，不填默认为link
+            dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+            success: function () {
+//                msg("分享好友成功");
+                // 用户确认分享后执行的回调函数
+//                alert("分享好友成功");
+            },
+            cancel: function () {
+//                msg("取消分享好友成功");
+                // 用户取消分享后执行的回调函数
+//                alert("取消分享好友成功");
+            }
+        });
+//        //分享qq
+//        wx.onMenuShareQQ({
+//            title: '{$data.title}', // 分享标题
+//            desc: '{$data.name}', // 分享描述
+//            link: data.url, // 分享链接
+//            imgUrl: 'http://www.yougobao.com{$data.thumb}', // 分享图标
+//            success: function () {
+//                msg("分享qq成功");
+//                // 用户确认分享后执行的回调函数
+//            },
+//            cancel: function () {
+//                msg("取消分享qq成功");
+//                // 用户取消分享后执行的回调函数
+//            }
+//        });
+    });
+    wx.error(function(res){
+//        alert(res);
+        // config信息验证失败会执行error函数，如签名过期导致验证失败，具体错误信息可以打开config的debug模式查看，也可以在返回的res参数中查看，对于SPA可以在这里更新签名。
+    });
+
+    function adddriver(){
+        var username = $('#username').val();
+        var phone = $('#phone').val();
+        var model = $('#model').val();
+
+        if(username == ''){
+            alert('姓名不能为空');
+            return false;
+        }
+        if(phone == ''){
+            alert('手机号不能为空');
+            return false;
+        }
+        if(model == ''){
+            alert('型号不能为空');
+            return false;
+        }
+
+        $.ajax({
+            url:'/home/Friends/addDriver',
+            type:"POST",
+            data:{username:username,phone:phone,model:model},
+            success: function(data){
+                if(data['code'] == 200){
+                    $('#mark').toggle();
+                    $('#alert').html(data['msg']);
+                    $('#username').val('');
+                    $('#phone').val('');
+                    $('#model').val('');
+//                    alert(data['msg']);
+                }
+            }
+        });
+    }
+</script>
+
+</html>

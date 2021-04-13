@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>绑定手机</title>
+    <!-- <link rel="stylesheet" href="./css/swiper.min.css"> -->
+    <link rel="stylesheet" href="__BJNEWS__/css/base.css" />
+    <link rel="stylesheet" href="__BJNEWS__/css/index.css" />
+
+    <script>
+      ~(function anonymous(window) {
+        let setREM = function setREM() {
+          let wWith = document.documentElement.clientWidth;
+          const dWith = 750;
+          if (wWith >= dWith) {
+            document.documentElement.style.fontSize = `100px`;
+            return;
+          }
+          document.documentElement.style.fontSize =
+            (wWith / dWith) * 100 + "px";
+        };
+        setREM();
+        window.addEventListener("resize", setREM);
+      })(window);
+    </script>
+  </head>
+
+  <body style="background-color: RGBA(242, 242, 242, 1)">
+    <header>
+      <img class="phoneHeader" src="__BJNEWS__/images/phoneHeader.png" alt="" />
+    </header>
+    <form action="" method="post">
+      <input type="hidden" name="user_ids" value="{$user_id}"/>
+    <div class="PhoneMainWrap">
+
+      <div class="list" style="border-bottom: 0.01rem solid #d3d3d3">
+        <div>手机号码</div>
+        <div style="flex: 1; margin-left: 0.35rem">
+          <input type="number" name="phone" id="phone" placeholder="请输入手机号码" />
+        </div>
+        <!--<div class='getCode'>-->
+          <!--获取验证码-->
+        <!--</div>-->
+        <input type='button' class='button' value='获取验证码' id='verify' ></input>
+      </div>
+
+      <div class="list">
+        <div>验证码</div>
+        <div style="flex: 1; margin-left: 0.65rem">
+          <input type="text" id="rand_code" name="rand_code" placeholder="请输入验证码" />
+        </div>
+      </div>
+
+    </div>
+
+    <!--<div class='save'>绑定</div>-->
+      <button id='regiset' type="submit" class='save' >绑定</button>
+    </form>
+    <script src='__ENROLL__/js/zepto.js'></script>
+    <script>
+        const btn = $('#verify')[0]
+        let i = 60
+        timer = function() {
+            if (i > 0) {
+                $('#verify').attr('loading', 'true')
+                btn.value = `${--i}秒`
+                setTimeout(timer, 1000);
+            } else {
+                $('#verify').attr('loading', "false")
+                btn.value = '重新获取验证码'
+            }
+        }
+        $(document).on("click", "#verify", function() {
+            if (!($('#verify').attr('loading') == "true")) {
+                i = 60;
+                timer();
+                cancel();
+            }
+        })
+
+        //获取验证码
+        function cancel(){
+            var phone = $('#phone').val();
+            $.ajax({
+                url:'/wxapi/Indexs/sendphone',
+                type:"POST",
+                data:{phone:phone},
+                success: function(data){
+//                    alert(data);
+                }
+            });
+        }
+
+//        function sub() {
+//          var rand_code = $('#rand_code').val();
+//          var phone = $('#phone').val();
+//          var user_ids = $('#user_ids').val();
+//
+//            $.ajax({
+//                url:'/wxapi/Indexs/phonenumber',
+//                type:"POST",
+//                data:{phone:phone,rand_code:rand_code,user_ids:user_ids},
+//                success: function(data){
+//                    alert(data);
+//                }
+//            });
+//        }
+
+   </script>
+  </body >
+</html>

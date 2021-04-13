@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft Yahei";
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset, img {
+    border: 0
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+}
+
+ol, ul {
+    list-style: none
+}
+
+li {
+    list-style: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+caption, th {
+    text-align: left
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal
+}
+
+html {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+html, body, .container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    font-size: 14px;
+    color: #333333;
+    overflow-x: hidden;
+}
+
+input, textarea {
+    outline: none;
+}
+
+b, i {
+    font-style: normal;
+    font-weight: 500;
+}
+
+a {
+    outline: none;
+    text-decoration: none !important;
+    color: #1ab188;
+    -o-transition: .2s ease;
+    -moz-transition: .2s ease;
+    -webkit-transition: .2s ease;
+    transition: .2s ease;
+    color: #333333
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover, a:active {
+    text-decoration: none;
+    outline: none;
+}
+
+.after:after {
+    content: ".";
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+}
+
+.hide {
+    display: none
+}
+
+.fl {
+    float: left;
+    display: inline
+}
+
+.fr {
+    float: right;
+    display: inline
+}
+
+.clear {
+    clear: both;
+}
+
+input[type=button], input[type=submit], input[type=file], button {
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+/***********5_2经营状况*************/
+
+.run_heads {
+    width: 100%;
+    height: 0.88rem;
+    background: #02a2fe;
+}
+
+.run_head {
+    width: 94%;
+    line-height: 0.88rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.run_head_gt {
+    width: 0.17rem;
+    height: 0.33rem;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0.27rem;
+}
+
+.run_head_font {
+    font-size: 0.3rem;
+    color: #fff;
+    text-align: center;
+}
+
+.run_head_sp {
+    width: 0.36rem;
+    height: 0.36rem;
+    display: block;
+    position: absolute;
+    top: 0.25rem;
+    right: 0;
+}
+
+.run_center {
+    width: 100%;
+}
+
+.run_center_tab {
+    width: 100%;
+    height: 1rem;
+    background: #fff;
+    border-top: 0.02rem solid #e5e5e5;
+    border-bottom: 0.02rem solid #e5e5e5;
+}
+
+.run_center_tab ul li a {
+    width: 25%;
+    line-height: 1rem;
+    text-align: center;
+    float: left;
+    font-size: 0.28rem;
+    color: #999;
+}
+
+.run_center_tab .run_center_hover {
+    color: #0388ff;
+    line-height: 0.94rem;
+    border-bottom: 0.04rem solid #0388ff;
+}
+
+.run_center_todays {
+    width: 100%;
+}
+
+.run_center_today {
+    width: 94%;
+    background: #fff;
+    border: 0.02rem solid #e5e5e5;
+    margin: 0.3rem auto;
+    overflow: hidden;
+}
+
+.run_center_today ul li {
+    width: 100%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    border-top: 0.02rem solid #e5e5e5;
+    font-size: 0.28rem;
+    color: #696969;
+}
+
+.run_center_today ul li:first-child {
+    border-top: 0;
+}
+
+.run_center_today_left {
+    width: 40%;
+    text-align: center;
+    border-right: 0.02rem solid #e5e5e5;
+}
+
+.run_center_today_right {
+    width: 60%;
+    text-align: center;
+}
+
+.none {
+    display: none;
+}
+
+.run_center_mores {
+    width: 100%;
+}
+
+.run_center_more {
+    width: 90%;
+    background: #fff;
+    border-radius: 0.2rem;
+    margin: 0.3rem auto;
+}
+
+.run_center_more_title {
+    width: 100%;
+    height: 0.96rem;
+    line-height: 0.96rem;
+    background: #0996fb;
+    border-radius: 0.2rem 0.2rem 0 0;
+    padding: 0 5%;
+    font-size: 0.28rem;
+    color: #fff;
+}
+
+.run_center_more_lists {
+    width: 100%;
+}
+
+.run_center_more_list {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    border-top: 0.02rem solid #e4e4ee;
+    padding: 0.25rem 0;
+}
+
+.run_center_more_list:first-child {
+    border-top: 0;
+}
+
+.run_list_left {
+    font-size: 0.28rem;
+    font-weight: bold;
+    color: #333;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    margin-right: 0.3rem;
+}
+
+.run_list_input {
+    font-size: 0.28rem;
+    color: #333;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    padding: 0 0.25rem;
+    border-radius: 0.1rem;
+    border: 0.02rem solid #999;
+}
+
+.run_center_more_foot {
+    width: 100%;
+    padding: 0.4rem 0;
+    overflow: hidden;
+}
+
+.run_foot_left {
+    width: 1.9rem;
+    text-align: center;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    background: #999;
+    border-radius: 0.1rem;
+    border: none;
+    font-size: 0.28rem;
+    color: #fff;
+    margin: 0 11%;
+}
+
+.run_foot_right {
+    width: 1.9rem;
+    text-align: center;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    background: #0388ff;
+    border-radius: 0.1rem;
+    border: none;
+    font-size: 0.28rem;
+    color: #fff;
+}
+
+.run_center_week {
+    width: 100%;
+}
+
+.run_week_duration {
+    width: 100%;
+}
+
+.run_week_duration_title {
+    width: 90%;
+    font-size: 0.28rem;
+    color: #696969;
+    margin: 0.3rem auto;
+}
+
+.run_week_duration_form {
+    width: 100%;
+    background: #fff;
+    border-top: 0.02rem solid #e5e5e5;
+    display: -webkit-box;
+    overflow-x: scroll;
+}
+
+.run_week_quantity {
+    width: 100%;
+    overflow: hidden;
+}
+
+.run_week_quantity_title {
+    width: 90%;
+    margin: 0.3rem auto;
+    overflow: hidden;
+}
+
+.quantity_title_left {
+    font-size: 0.28rem;
+    color: #696969;
+}
+
+.quantity_title_right {
+    width: 60%;
+    overflow: hidden;
+    margin-top: 0.06rem;
+}
+
+.quantity_title_right ul li {
+    width: 35%;
+    overflow: hidden;
+    float: left;
+    font-size: 0.2rem;
+    color: #616161;
+}
+
+.quantity_title_right ul li:nth-child(3) {
+    width: 30%;
+}
+
+.quantity_title_blove {
+    color: #75b1ff;
+    margin: 0 0.1rem;
+}
+
+.quantity_title_yellow {
+    color: #ffcf8a;
+    margin: 0 0.1rem;
+}
+
+.quantity_title_red {
+    color: #ff7474;
+    margin: 0 0.1rem;
+}
+
+.run_week_quantity_form {
+    width: 100%;
+    background: #fff;
+    border-top: 0.02rem solid #e5e5e5;
+    display: -webkit-box;
+    overflow-x: scroll;
+}

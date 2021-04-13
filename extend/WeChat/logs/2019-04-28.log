@@ -1,0 +1,16 @@
+[2019-04-28 09:58:35][debug] 微信回调开始
+[2019-04-28 09:58:35][debug] OK
+[2019-04-28 09:58:35][debug] -------------微信支付回调开始-------------------
+[2019-04-28 09:58:35][debug] call back:{"appid":"wxb1ff806d3e2480a2","bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"197189600","openid":"oG3g21nEGi9h37l00nXcrkTeJzTQ","out_trade_no":"201904288682","result_code":"SUCCESS","return_code":"SUCCESS","sign":"96AB55CB6C9BF55294726DEE0C45A0C9","time_end":"20190428095835","total_fee":"1","trade_type":"APP","transaction_id":"4200000289201904282338357309"}
+[2019-04-28 09:58:35][debug] query:{"appid":"wx889f000f7b26c5c1","attach":[],"bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"K3DjJJfNwG6HLTXL","openid":"oG3g21nEGi9h37l00nXcrkTeJzTQ","out_trade_no":"201904288682","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"2B01D6A8EEC2E3B59B30F063F7E7E5F5","time_end":"20190428095835","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"APP","transaction_id":"4200000289201904282338357309"}
+[2019-04-28 09:58:35][debug] -------------订单状态是未支付可以修改：-------------------1
+[2019-04-28 09:58:35][debug] -------------成功-------------------
+[2019-04-28 01:58:36][debug] 支付成功了
+[2019-04-28 10:34:35][debug] 微信回调开始
+[2019-04-28 10:34:35][debug] OK
+[2019-04-28 10:34:35][debug] -------------微信支付回调开始-------------------
+[2019-04-28 10:34:35][debug] call back:{"appid":"wxb1ff806d3e2480a2","bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"233576755","openid":"oG3g21nEGi9h37l00nXcrkTeJzTQ","out_trade_no":"201904288890","result_code":"SUCCESS","return_code":"SUCCESS","sign":"C3332A9D463562099774A70EB7A5FDB2","time_end":"20190428103434","total_fee":"1","trade_type":"APP","transaction_id":"4200000291201904281831051313"}
+[2019-04-28 10:34:35][debug] query:{"appid":"wx889f000f7b26c5c1","attach":[],"bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"5hyAoRZOJ3qrOfEI","openid":"oG3g21nEGi9h37l00nXcrkTeJzTQ","out_trade_no":"201904288890","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"E3A48BD094101D9B9486B409D8B1F687","time_end":"20190428103434","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"APP","transaction_id":"4200000291201904281831051313"}
+[2019-04-28 10:34:35][debug] -------------订单状态是未支付可以修改：-------------------1
+[2019-04-28 10:34:35][debug] -------------成功-------------------
+[2019-04-28 02:34:36][debug] 支付成功了

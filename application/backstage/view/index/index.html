@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>同城打车</title>
+    <!-- <link rel="stylesheet" href="./css/swiper.min.css"> -->
+    <link rel="stylesheet" href="__ENROLL__/css/base.css" />
+    <link rel="stylesheet" href="__ENROLL__/css/index.css" />
+    <script>
+        ~(function anonymous(window) {
+            let setREM = function setREM() {
+                let wWith = document.documentElement.clientWidth;
+                const dWith = 750;
+                if (wWith >= dWith) {
+                    document.documentElement.style.fontSize = "100px";
+                    return;
+                }
+                // if(wWith<=768){
+                //   return;
+                // }
+                document.documentElement.style.fontSize =
+                    (wWith / dWith) * 100 + "px";
+            };
+            setREM();
+            window.addEventListener("resize", setREM);
+        })(window);
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <img src="__ENROLL__/images/sanjiao.png" alt="">
+        <h1>注册同城打车</h1>
+    </header>
+    <div class="banner">
+        <img src="__ENROLL__/images/banner.png" alt="">
+        <div>
+            <h1>同城打车邀您一起乘车</h1>
+            <p>同城有你 打车有我</p>
+        </div>
+        <img id='car' class='car' src="__ENROLL__/images/car.png" alt="">
+    </div>
+
+    <div class='wrap'>
+        <form action="" method="post" onsubmit="check()">
+            <input type="text" class='phone' name="phone" id="phone" placeholder="请输入手机号">
+
+            <div class='yanzhengma'>
+                <input type="text" name="rand_code" id="code" placeholder="请输入验证码">
+                <input type='button' class='button' value='获取验证码' id='verify' ></input>
+            </div>
+            <input style="margin-top:.3rem" type="text" class='phone' name="invitation_code" id="invitation_code" placeholder="邀请码（选填）">
+            <div class='xieyi'>
+                <input type="checkbox" id='checkbox' checked>
+                <p id='xieyi'>本人已阅读并同意签署</p>
+                <a href='javascript:;'>《同城打车注册协议》</a>
+            </div>
+            <div class='toast' id='toast'>
+                请阅读协议
+            </div>
+            <button id='regiset' type="submit" class='regiset_btn'>立即注册</button>
+        </form>
+    </div>
+    <script src='__ENROLL__/js/zepto.js'></script>
+    <script>
+        const ckb = document.querySelector('#checkbox')
+
+        document.querySelector('#xieyi').onclick = () => {
+            ckb.checked = !ckb.checked
+        }
+
+        const btn = $('#verify')[0]
+        let i = 60
+        timer = function() {
+            if (i > 0) {
+                $('#verify').attr('loading', 'true')
+                btn.value = `${--i}秒`
+                setTimeout(timer, 1000);
+            } else {
+                $('#verify').attr('loading', "false")
+                btn.value = '重新获取验证码'
+            }
+        }
+        $(document).on("click", "#verify", function() {
+
+            if (!($('#verify').attr('loading') == "true")) {
+                i = 60;
+                timer();
+                cancel();
+            }
+        })
+
+        //获取验证码
+        function cancel(){
+            var phone = $('#phone').val();
+            $.ajax({
+                url:'/backstage/Index/sendphone',
+                type:"POST",
+                data:{phone:phone},
+                success: function(data){
+//                    alert(data);
+                }
+            });
+        }
+        function check() {
+            if(!$('#checkbox').is(':checked')) {
+                return false;
+            }
+        }
+    </script>
+</body>
+
+</html>

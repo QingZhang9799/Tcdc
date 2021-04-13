@@ -1,0 +1,41 @@
+html {
+    font-size: 100px;
+    min-height: 100%;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.wrap {
+    min-height: 100vh;
+    padding-bottom: .2rem;
+    .bg {
+        >img {
+            width: 100vw;
+            height: calc(100vw * 750 / 10.32rem);
+        }
+    }
+    .buttonWrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .button {
+            width: 2rem;
+            height: 0.7rem;
+            margin-top: .7rem;
+        }
+        >p {
+            font-size: .16rem;
+            margin-top: .3rem;
+            color: #a1a1a1;
+            letter-spacing: 2px;
+        }
+        .buttonInfo {
+            width: 2.15rem;
+            height: 0.22rem;
+            margin-top: .15rem;
+        }
+    }
+}

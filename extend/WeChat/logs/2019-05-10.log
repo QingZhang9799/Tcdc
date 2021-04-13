@@ -1,0 +1,194 @@
+[2019-05-10 02:07:24][debug] 微信回调开始
+[2019-05-10 02:07:24][debug] OK
+[2019-05-10 02:07:24][debug] -------------微信支付回调开始-------------------
+[2019-05-10 02:07:24][debug] call back:{"appid":"wxb1ff806d3e2480a2","bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"1415173038","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905098429","result_code":"SUCCESS","return_code":"SUCCESS","sign":"3BE447B2A955856A3EBD40990FC6BF46","time_end":"20190509143309","total_fee":"1","trade_type":"APP","transaction_id":"4200000302201905093085596252"}
+[2019-05-10 02:07:25][debug] query:{"appid":"wx889f000f7b26c5c1","attach":[],"bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"vHSXUPkkq1mbKb4j","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905098429","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"FC4CD3FBE5DF5F287EF65D9EA8CAAC74","time_end":"20190509143309","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"APP","transaction_id":"4200000302201905093085596252"}
+[2019-05-10 02:32:31][debug] 微信回调开始
+[2019-05-10 02:32:31][debug] OK
+[2019-05-10 02:32:31][debug] -------------微信支付回调开始-------------------
+[2019-05-10 02:32:31][debug] call back:{"appid":"wxb1ff806d3e2480a2","bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"1440501187","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905092185","result_code":"SUCCESS","return_code":"SUCCESS","sign":"CCED1B218433535E9E86E1763CC76C49","time_end":"20190509145816","total_fee":"1","trade_type":"APP","transaction_id":"4200000305201905097226627015"}
+[2019-05-10 02:32:31][debug] query:{"appid":"wx889f000f7b26c5c1","attach":[],"bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"u0U1Qu26n6G0Dp55","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905092185","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"71ADB5CE90F25EA7279EEA5898F5589F","time_end":"20190509145816","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"APP","transaction_id":"4200000305201905097226627015"}
+[2019-05-10 02:40:36][debug] 微信回调开始
+[2019-05-10 02:40:36][debug] OK
+[2019-05-10 02:40:36][debug] -------------微信支付回调开始-------------------
+[2019-05-10 02:40:36][debug] call back:{"appid":"wxb1ff806d3e2480a2","bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"1448736617","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905091240","result_code":"SUCCESS","return_code":"SUCCESS","sign":"214581326DBB840FD5D1B06CDAC19632","time_end":"20190509150624","total_fee":"1","trade_type":"APP","transaction_id":"4200000304201905093248774424"}
+[2019-05-10 02:40:36][debug] query:{"appid":"wx889f000f7b26c5c1","attach":[],"bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"6dtcdkGGRID5dQvI","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905091240","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"B3BDFFBB5F1981AC70C5279C9543BCC7","time_end":"20190509150625","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"APP","transaction_id":"4200000304201905093248774424"}
+[2019-05-10 02:44:32][debug] 微信回调开始
+[2019-05-10 02:44:32][debug] OK
+[2019-05-10 02:44:32][debug] -------------微信支付回调开始-------------------
+[2019-05-10 02:44:32][debug] call back:{"appid":"wxb1ff806d3e2480a2","bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"1452635841","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905094901","result_code":"SUCCESS","return_code":"SUCCESS","sign":"1A1B77DA51477B2FDA11F1EF46BF0090","time_end":"20190509151018","total_fee":"1","trade_type":"APP","transaction_id":"4200000305201905094169887106"}
+[2019-05-10 02:44:32][debug] query:{"appid":"wx889f000f7b26c5c1","attach":[],"bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"LQp91jP7ZGpjAmoM","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905094901","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"7DE8CD8D175ADCA4B78AB3E022166134","time_end":"20190509151018","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"APP","transaction_id":"4200000305201905094169887106"}
+[2019-05-10 02:54:50][debug] 微信回调开始
+[2019-05-10 02:54:50][debug] OK
+[2019-05-10 02:54:50][debug] -------------微信支付回调开始-------------------
+[2019-05-10 02:54:50][debug] call back:{"appid":"wxb1ff806d3e2480a2","bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"1462904918","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905092649","result_code":"SUCCESS","return_code":"SUCCESS","sign":"8B5FD3A29775E58CEB9AF20BFF304C49","time_end":"20190509152034","total_fee":"1","trade_type":"APP","transaction_id":"4200000301201905096422892290"}
+[2019-05-10 02:54:50][debug] query:{"appid":"wx889f000f7b26c5c1","attach":[],"bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"WdErFWqHoy48SEa7","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905092649","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"E59B5EDF3B7B8D67E418037ECDFC5DA3","time_end":"20190509152034","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"APP","transaction_id":"4200000301201905096422892290"}
+[2019-05-10 08:07:25][debug] 微信回调开始
+[2019-05-10 08:07:25][debug] OK
+[2019-05-10 08:07:25][debug] -------------微信支付回调开始-------------------
+[2019-05-10 08:07:25][debug] call back:{"appid":"wxb1ff806d3e2480a2","bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"1415173038","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905098429","result_code":"SUCCESS","return_code":"SUCCESS","sign":"3BE447B2A955856A3EBD40990FC6BF46","time_end":"20190509143309","total_fee":"1","trade_type":"APP","transaction_id":"4200000302201905093085596252"}
+[2019-05-10 08:07:26][debug] query:{"appid":"wx889f000f7b26c5c1","attach":[],"bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"vmo5ElX2s5vk7ZuW","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905098429","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"E0A9B87213BD53C8D44F9C8DAA1A7CC3","time_end":"20190509143309","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"APP","transaction_id":"4200000302201905093085596252"}
+[2019-05-10 08:32:32][debug] 微信回调开始
+[2019-05-10 08:32:32][debug] OK
+[2019-05-10 08:32:32][debug] -------------微信支付回调开始-------------------
+[2019-05-10 08:32:32][debug] call back:{"appid":"wxb1ff806d3e2480a2","bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"1440501187","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905092185","result_code":"SUCCESS","return_code":"SUCCESS","sign":"CCED1B218433535E9E86E1763CC76C49","time_end":"20190509145816","total_fee":"1","trade_type":"APP","transaction_id":"4200000305201905097226627015"}
+[2019-05-10 08:32:32][debug] query:{"appid":"wx889f000f7b26c5c1","attach":[],"bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"rYRz8YYHN8ylWWws","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905092185","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"849B0EAC1AACE90301B355D5A59326C9","time_end":"20190509145816","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"APP","transaction_id":"4200000305201905097226627015"}
+[2019-05-10 08:40:37][debug] 微信回调开始
+[2019-05-10 08:40:37][debug] OK
+[2019-05-10 08:40:37][debug] -------------微信支付回调开始-------------------
+[2019-05-10 08:40:37][debug] call back:{"appid":"wxb1ff806d3e2480a2","bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"1448736617","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905091240","result_code":"SUCCESS","return_code":"SUCCESS","sign":"214581326DBB840FD5D1B06CDAC19632","time_end":"20190509150624","total_fee":"1","trade_type":"APP","transaction_id":"4200000304201905093248774424"}
+[2019-05-10 08:40:37][debug] query:{"appid":"wx889f000f7b26c5c1","attach":[],"bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"PwqbjhGa4Vm1q6hJ","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905091240","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"E99601C00783724CB51B71BC7CC5682F","time_end":"20190509150625","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"APP","transaction_id":"4200000304201905093248774424"}
+[2019-05-10 08:44:33][debug] 微信回调开始
+[2019-05-10 08:44:33][debug] OK
+[2019-05-10 08:44:33][debug] -------------微信支付回调开始-------------------
+[2019-05-10 08:44:33][debug] call back:{"appid":"wxb1ff806d3e2480a2","bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"1452635841","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905094901","result_code":"SUCCESS","return_code":"SUCCESS","sign":"1A1B77DA51477B2FDA11F1EF46BF0090","time_end":"20190509151018","total_fee":"1","trade_type":"APP","transaction_id":"4200000305201905094169887106"}
+[2019-05-10 08:44:33][debug] query:{"appid":"wx889f000f7b26c5c1","attach":[],"bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"yKaYpEnVblj6jSnp","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905094901","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"3D1299B2354D704D454701C51EAFBB8C","time_end":"20190509151018","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"APP","transaction_id":"4200000305201905094169887106"}
+[2019-05-10 08:54:51][debug] 微信回调开始
+[2019-05-10 08:54:51][debug] OK
+[2019-05-10 08:54:51][debug] -------------微信支付回调开始-------------------
+[2019-05-10 08:54:51][debug] call back:{"appid":"wxb1ff806d3e2480a2","bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"1462904918","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905092649","result_code":"SUCCESS","return_code":"SUCCESS","sign":"8B5FD3A29775E58CEB9AF20BFF304C49","time_end":"20190509152034","total_fee":"1","trade_type":"APP","transaction_id":"4200000301201905096422892290"}
+[2019-05-10 08:54:51][debug] query:{"appid":"wx889f000f7b26c5c1","attach":[],"bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"0bqIRrpM7N2v4qtb","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905092649","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"E22A891E57C8D34300E6F84DFE990974","time_end":"20190509152034","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"APP","transaction_id":"4200000301201905096422892290"}
+[2019-05-10 09:32:05][debug] 微信回调开始
+[2019-05-10 09:32:05][debug] OK
+[2019-05-10 09:32:05][debug] -------------微信支付回调开始-------------------
+[2019-05-10 09:32:05][debug] call back:{"appid":"wxb1ff806d3e2480a2","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"201905100931589003486224","openid":"oG3g21pHylcL-3o_AzxtO8uF4pao","out_trade_no":"201905108727","result_code":"SUCCESS","return_code":"SUCCESS","sign":"9413E90C1627F2936339140E7728B970","time_end":"20190510093204","total_fee":"1","trade_type":"APP","transaction_id":"4200000305201905104161958218"}
+[2019-05-10 09:32:05][debug] query:{"appid":"wx889f000f7b26c5c1","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"f5QZ5n9u8ZopimSP","openid":"oG3g21pHylcL-3o_AzxtO8uF4pao","out_trade_no":"201905108727","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"0536765F87B19F6CEE6E7429299DF9F6","time_end":"20190510093204","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"APP","transaction_id":"4200000305201905104161958218"}
+[2019-05-10 09:32:05][debug] -------------订单状态是未支付可以修改：-------------------1
+[2019-05-10 09:32:05][debug] -------------成功-------------------
+[2019-05-10 01:32:05][debug] 支付成功了
+[2019-05-10 10:51:19][debug] 微信回调开始
+[2019-05-10 10:51:19][debug] OK
+[2019-05-10 10:51:19][debug] -------------微信支付回调开始-------------------
+[2019-05-10 10:51:19][debug] call back:{"appid":"wxb1ff806d3e2480a2","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"201905101051135612169239","openid":"oG3g21pHylcL-3o_AzxtO8uF4pao","out_trade_no":"201905105136","result_code":"SUCCESS","return_code":"SUCCESS","sign":"F769A41D240508404EB68CD05F20F4B1","time_end":"20190510105117","total_fee":"1","trade_type":"APP","transaction_id":"4200000303201905100472023415"}
+[2019-05-10 10:51:19][debug] query:{"appid":"wx889f000f7b26c5c1","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"q0ZNdjEhJiUGKj9n","openid":"oG3g21pHylcL-3o_AzxtO8uF4pao","out_trade_no":"201905105136","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"43D9C5C3F72B8BC856E727F15B7152A3","time_end":"20190510105117","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"APP","transaction_id":"4200000303201905100472023415"}
+[2019-05-10 10:51:19][debug] -------------订单状态是未支付可以修改：-------------------1
+[2019-05-10 10:51:19][debug] -------------成功-------------------
+[2019-05-10 02:51:20][debug] 支付成功了
+[2019-05-10 10:51:34][debug] 微信回调开始
+[2019-05-10 10:51:34][debug] OK
+[2019-05-10 10:51:34][debug] -------------微信支付回调开始-------------------
+[2019-05-10 10:51:34][debug] call back:{"appid":"wxb1ff806d3e2480a2","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"201905101051284620950138","openid":"oG3g21pHylcL-3o_AzxtO8uF4pao","out_trade_no":"201905108543","result_code":"SUCCESS","return_code":"SUCCESS","sign":"905DE01EA545C5E917D08C96C6E7EF90","time_end":"20190510105133","total_fee":"1","trade_type":"APP","transaction_id":"4200000301201905108317570187"}
+[2019-05-10 10:51:34][debug] query:{"appid":"wx889f000f7b26c5c1","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"KOF9ttorPpkTS9Uj","openid":"oG3g21pHylcL-3o_AzxtO8uF4pao","out_trade_no":"201905108543","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"70FEF73CDF01A9194DBF7E61EC581F15","time_end":"20190510105133","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"APP","transaction_id":"4200000301201905108317570187"}
+[2019-05-10 10:51:34][debug] -------------订单状态是未支付可以修改：-------------------1
+[2019-05-10 10:51:34][debug] -------------成功-------------------
+[2019-05-10 02:51:35][debug] 支付成功了
+[2019-05-10 10:51:54][debug] 微信回调开始
+[2019-05-10 10:51:54][debug] OK
+[2019-05-10 10:51:54][debug] -------------微信支付回调开始-------------------
+[2019-05-10 10:51:54][debug] call back:{"appid":"wxb1ff806d3e2480a2","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"201905101051495038609328","openid":"oG3g21pHylcL-3o_AzxtO8uF4pao","out_trade_no":"201905107569","result_code":"SUCCESS","return_code":"SUCCESS","sign":"3F830BBD0BC8BD8C98070656E8E7AF27","time_end":"20190510105153","total_fee":"1","trade_type":"APP","transaction_id":"4200000294201905104015163745"}
+[2019-05-10 10:51:54][debug] query:{"appid":"wx889f000f7b26c5c1","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"W53CXdTAgN5226At","openid":"oG3g21pHylcL-3o_AzxtO8uF4pao","out_trade_no":"201905107569","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"A58A57D9EC3A6B9DEEA430886A378DD9","time_end":"20190510105153","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"APP","transaction_id":"4200000294201905104015163745"}
+[2019-05-10 10:51:54][debug] -------------订单状态是未支付可以修改：-------------------1
+[2019-05-10 10:51:54][debug] -------------成功-------------------
+[2019-05-10 02:51:55][debug] 支付成功了
+[2019-05-10 11:37:33][debug] 微信回调开始
+[2019-05-10 11:37:33][debug] OK
+[2019-05-10 11:37:33][debug] -------------微信支付回调开始-------------------
+[2019-05-10 11:37:33][debug] call back:{"appid":"wxb1ff806d3e2480a2","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"201905101137263203823536","openid":"oG3g21pHylcL-3o_AzxtO8uF4pao","out_trade_no":"201905102818","result_code":"SUCCESS","return_code":"SUCCESS","sign":"1AD2D2797E0F9D8D12F9033EEB366EA4","time_end":"20190510113732","total_fee":"1","trade_type":"APP","transaction_id":"4200000302201905108204739844"}
+[2019-05-10 11:37:33][debug] query:{"appid":"wx889f000f7b26c5c1","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"78bnvaDVqebdZ1Wo","openid":"oG3g21pHylcL-3o_AzxtO8uF4pao","out_trade_no":"201905102818","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"7D3140CDD992C245059ED3E36E143320","time_end":"20190510113732","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"APP","transaction_id":"4200000302201905108204739844"}
+[2019-05-10 11:37:33][debug] -------------订单状态是未支付可以修改：-------------------1
+[2019-05-10 11:37:33][debug] -------------成功-------------------
+[2019-05-10 03:37:34][debug] 支付成功了
+[2019-05-10 11:38:18][debug] 微信回调开始
+[2019-05-10 11:38:18][debug] OK
+[2019-05-10 11:38:18][debug] -------------微信支付回调开始-------------------
+[2019-05-10 11:38:18][debug] call back:{"appid":"wxb1ff806d3e2480a2","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"201905101138127748272920","openid":"oG3g21pHylcL-3o_AzxtO8uF4pao","out_trade_no":"201905105684","result_code":"SUCCESS","return_code":"SUCCESS","sign":"7BC8F0FA42968EE7C29179C854906863","time_end":"20190510113817","total_fee":"1","trade_type":"APP","transaction_id":"4200000304201905100065309391"}
+[2019-05-10 11:38:18][debug] query:{"appid":"wx889f000f7b26c5c1","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"JjgkVGMPjxzEofks","openid":"oG3g21pHylcL-3o_AzxtO8uF4pao","out_trade_no":"201905105684","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"34108261A3CE5B890421A54DD20F7071","time_end":"20190510113817","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"APP","transaction_id":"4200000304201905100065309391"}
+[2019-05-10 11:38:18][debug] -------------订单状态是未支付可以修改：-------------------1
+[2019-05-10 11:38:18][debug] -------------成功-------------------
+[2019-05-10 03:38:19][debug] 支付成功了
+[2019-05-10 14:07:27][debug] 微信回调开始
+[2019-05-10 14:07:27][debug] OK
+[2019-05-10 14:07:27][debug] -------------微信支付回调开始-------------------
+[2019-05-10 14:07:27][debug] call back:{"appid":"wxb1ff806d3e2480a2","bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"1415173038","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905098429","result_code":"SUCCESS","return_code":"SUCCESS","sign":"3BE447B2A955856A3EBD40990FC6BF46","time_end":"20190509143309","total_fee":"1","trade_type":"APP","transaction_id":"4200000302201905093085596252"}
+[2019-05-10 14:07:27][debug] query:{"appid":"wx889f000f7b26c5c1","attach":[],"bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"hmwi6Z4xEHWllViG","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905098429","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"01D971186ACD84FF4DCBB51BE4A69E44","time_end":"20190509143309","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"APP","transaction_id":"4200000302201905093085596252"}
+[2019-05-10 14:32:33][debug] 微信回调开始
+[2019-05-10 14:32:33][debug] OK
+[2019-05-10 14:32:33][debug] -------------微信支付回调开始-------------------
+[2019-05-10 14:32:33][debug] call back:{"appid":"wxb1ff806d3e2480a2","bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"1440501187","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905092185","result_code":"SUCCESS","return_code":"SUCCESS","sign":"CCED1B218433535E9E86E1763CC76C49","time_end":"20190509145816","total_fee":"1","trade_type":"APP","transaction_id":"4200000305201905097226627015"}
+[2019-05-10 14:32:33][debug] query:{"appid":"wx889f000f7b26c5c1","attach":[],"bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"chh7UQ467EZgvqTW","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905092185","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"8D276CAA6643800EE3A070BF1DEDD5C9","time_end":"20190509145816","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"APP","transaction_id":"4200000305201905097226627015"}
+[2019-05-10 14:40:39][debug] 微信回调开始
+[2019-05-10 14:40:39][debug] OK
+[2019-05-10 14:40:39][debug] -------------微信支付回调开始-------------------
+[2019-05-10 14:40:39][debug] call back:{"appid":"wxb1ff806d3e2480a2","bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"1448736617","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905091240","result_code":"SUCCESS","return_code":"SUCCESS","sign":"214581326DBB840FD5D1B06CDAC19632","time_end":"20190509150624","total_fee":"1","trade_type":"APP","transaction_id":"4200000304201905093248774424"}
+[2019-05-10 14:40:39][debug] query:{"appid":"wx889f000f7b26c5c1","attach":[],"bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"SPtggaAWIuXJNU4J","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905091240","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"C0FB09C39E45B09CBA5B5EE73BE3FF67","time_end":"20190509150625","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"APP","transaction_id":"4200000304201905093248774424"}
+[2019-05-10 14:44:34][debug] 微信回调开始
+[2019-05-10 14:44:34][debug] OK
+[2019-05-10 14:44:34][debug] -------------微信支付回调开始-------------------
+[2019-05-10 14:44:34][debug] call back:{"appid":"wxb1ff806d3e2480a2","bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"1452635841","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905094901","result_code":"SUCCESS","return_code":"SUCCESS","sign":"1A1B77DA51477B2FDA11F1EF46BF0090","time_end":"20190509151018","total_fee":"1","trade_type":"APP","transaction_id":"4200000305201905094169887106"}
+[2019-05-10 14:44:35][debug] query:{"appid":"wx889f000f7b26c5c1","attach":[],"bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"XSHLUFRgDitb9UaB","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905094901","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"04E8F3376E4B8AF861F42AD2C3B9D8B3","time_end":"20190509151018","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"APP","transaction_id":"4200000305201905094169887106"}
+[2019-05-10 14:54:52][debug] 微信回调开始
+[2019-05-10 14:54:52][debug] OK
+[2019-05-10 14:54:52][debug] -------------微信支付回调开始-------------------
+[2019-05-10 14:54:52][debug] call back:{"appid":"wxb1ff806d3e2480a2","bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"1462904918","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905092649","result_code":"SUCCESS","return_code":"SUCCESS","sign":"8B5FD3A29775E58CEB9AF20BFF304C49","time_end":"20190509152034","total_fee":"1","trade_type":"APP","transaction_id":"4200000301201905096422892290"}
+[2019-05-10 14:54:53][debug] query:{"appid":"wx889f000f7b26c5c1","attach":[],"bank_type":"CFT","cash_fee":"1","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"eg0GGTQltnVVGtuQ","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905092649","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"CE6CE25EF7CA2F4764B91C5094B8A86C","time_end":"20190509152034","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"APP","transaction_id":"4200000301201905096422892290"}
+[2019-05-10 15:02:08][debug] 微信回调开始
+[2019-05-10 15:02:08][debug] OK
+[2019-05-10 15:02:08][debug] -------------微信支付回调开始-------------------
+[2019-05-10 15:02:08][debug] call back:{"appid":"wxb1ff806d3e2480a2","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"201905101501599208264822","openid":"oG3g21r7tLeCDVb5WbKBCLpds2Mo","out_trade_no":"201905108436","result_code":"SUCCESS","return_code":"SUCCESS","sign":"5D90027723C742422DBACDDE1D71D4B2","time_end":"20190510150207","total_fee":"1","trade_type":"APP","transaction_id":"4200000291201905109823510187"}
+[2019-05-10 15:02:08][debug] query:{"appid":"wx889f000f7b26c5c1","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"9jkp4HoXWpaxXUuX","openid":"oG3g21r7tLeCDVb5WbKBCLpds2Mo","out_trade_no":"201905108436","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"5690427FC1DC544EC04E24AC4EE1ADF0","time_end":"20190510150207","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"APP","transaction_id":"4200000291201905109823510187"}
+[2019-05-10 15:02:08][debug] -------------订单状态是未支付可以修改：-------------------1
+[2019-05-10 15:02:08][debug] -------------成功-------------------
+[2019-05-10 07:02:09][debug] 支付成功了
+[2019-05-10 15:16:01][debug] 微信回调开始
+[2019-05-10 15:16:01][debug] OK
+[2019-05-10 15:16:01][debug] -------------微信支付回调开始-------------------
+[2019-05-10 15:16:01][debug] call back:{"appid":"wxb1ff806d3e2480a2","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"201905101513048405504537","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905107004","result_code":"SUCCESS","return_code":"SUCCESS","sign":"AE0C4E2169D532EDEEC6B90495AA3823","time_end":"20190510151559","total_fee":"1","trade_type":"APP","transaction_id":"4200000289201905104602915030"}
+[2019-05-10 15:16:01][debug] query:{"appid":"wx889f000f7b26c5c1","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"UjFHO7Re3a8WJyaB","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905107004","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"D7FB8850813DE762ED45D045A42539BE","time_end":"20190510151600","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"APP","transaction_id":"4200000289201905104602915030"}
+[2019-05-10 15:16:01][debug] -------------订单状态是未支付可以修改：-------------------1
+[2019-05-10 15:16:01][debug] -------------成功-------------------
+[2019-05-10 07:16:02][debug] 支付成功了
+[2019-05-10 15:37:04][debug] 微信回调开始
+[2019-05-10 15:37:04][debug] OK
+[2019-05-10 15:37:04][debug] -------------微信支付回调开始-------------------
+[2019-05-10 15:37:04][debug] call back:{"appid":"wxb1ff806d3e2480a2","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"201905101536588922877704","openid":"oG3g21pHylcL-3o_AzxtO8uF4pao","out_trade_no":"201905101551","result_code":"SUCCESS","return_code":"SUCCESS","sign":"CB07B0AD6148E595005324BB4C5AA90C","time_end":"20190510153703","total_fee":"1","trade_type":"APP","transaction_id":"4200000301201905101740252307"}
+[2019-05-10 15:37:04][debug] query:{"appid":"wx889f000f7b26c5c1","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"wwQfNvV3O0sm8zGm","openid":"oG3g21pHylcL-3o_AzxtO8uF4pao","out_trade_no":"201905101551","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"EE3451E68FB7F1017A5D54CE3FAD92B1","time_end":"20190510153703","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"APP","transaction_id":"4200000301201905101740252307"}
+[2019-05-10 15:37:05][debug] -------------订单状态是未支付可以修改：-------------------1
+[2019-05-10 15:37:05][debug] -------------成功-------------------
+[2019-05-10 07:37:05][debug] 支付成功了
+[2019-05-10 15:38:35][debug] 微信回调开始
+[2019-05-10 15:38:35][debug] OK
+[2019-05-10 15:38:35][debug] -------------微信支付回调开始-------------------
+[2019-05-10 15:38:35][debug] call back:{"appid":"wxb1ff806d3e2480a2","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"201905101538298914657905","openid":"oG3g21pHylcL-3o_AzxtO8uF4pao","out_trade_no":"201905108557","result_code":"SUCCESS","return_code":"SUCCESS","sign":"3A1AD9967980F24F40E1E5BAE206E779","time_end":"20190510153834","total_fee":"1","trade_type":"APP","transaction_id":"4200000298201905103680190348"}
+[2019-05-10 15:38:36][debug] query:{"appid":"wx889f000f7b26c5c1","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"ARIjKGf48TFnMe3O","openid":"oG3g21pHylcL-3o_AzxtO8uF4pao","out_trade_no":"201905108557","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"1664A34EA77968EF383B241372F6DE3C","time_end":"20190510153834","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"APP","transaction_id":"4200000298201905103680190348"}
+[2019-05-10 15:38:36][debug] -------------订单状态是未支付可以修改：-------------------1
+[2019-05-10 15:38:36][debug] -------------成功-------------------
+[2019-05-10 07:38:36][debug] 支付成功了
+[2019-05-10 15:50:17][debug] 微信回调开始
+[2019-05-10 15:50:17][debug] OK
+[2019-05-10 15:50:17][debug] -------------微信支付回调开始-------------------
+[2019-05-10 15:50:17][debug] call back:{"appid":"wxb1ff806d3e2480a2","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"201905101550096220065932","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905107011","result_code":"SUCCESS","return_code":"SUCCESS","sign":"AEA7458FE82BF8BD2257C2EFEBDC117D","time_end":"20190510155016","total_fee":"1","trade_type":"APP","transaction_id":"4200000301201905102408762673"}
+[2019-05-10 15:50:17][debug] query:{"appid":"wx889f000f7b26c5c1","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"KPkHVL87LLusCg5F","openid":"oG3g21oMoslHhqG6idjnMFq5Qag4","out_trade_no":"201905107011","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"CE228C4D61BE6DF282DED17DBCCBD60B","time_end":"20190510155016","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"APP","transaction_id":"4200000301201905102408762673"}
+[2019-05-10 15:50:17][debug] -------------订单状态是未支付可以修改：-------------------1
+[2019-05-10 15:50:17][debug] -------------成功-------------------
+[2019-05-10 07:50:18][debug] 支付成功了
+[2019-05-10 15:53:17][debug] 微信回调开始
+[2019-05-10 15:53:17][debug] OK
+[2019-05-10 15:53:17][debug] -------------微信支付回调开始-------------------
+[2019-05-10 15:53:17][debug] call back:{"appid":"wxb1ff806d3e2480a2","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"201905101553126650269328","openid":"oG3g21pHylcL-3o_AzxtO8uF4pao","out_trade_no":"201905107040","result_code":"SUCCESS","return_code":"SUCCESS","sign":"C79459212BDAB9E5D138762FE73F41A1","time_end":"20190510155316","total_fee":"1","trade_type":"APP","transaction_id":"4200000301201905103430335366"}
+[2019-05-10 15:53:17][debug] query:{"appid":"wx889f000f7b26c5c1","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"YPDNydbbM0nzmo9V","openid":"oG3g21pHylcL-3o_AzxtO8uF4pao","out_trade_no":"201905107040","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"3315283146F1553458773D9743383438","time_end":"20190510155316","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"APP","transaction_id":"4200000301201905103430335366"}
+[2019-05-10 15:53:17][debug] -------------订单状态已经是已支付-------------------
+[2019-05-10 15:53:17][debug] 支付成功了
+[2019-05-10 15:55:25][debug] 微信回调开始
+[2019-05-10 15:55:25][debug] OK
+[2019-05-10 15:55:25][debug] -------------微信支付回调开始-------------------
+[2019-05-10 15:55:25][debug] call back:{"appid":"wxb1ff806d3e2480a2","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"201905101555205721475132","openid":"oG3g21pHylcL-3o_AzxtO8uF4pao","out_trade_no":"201905108078","result_code":"SUCCESS","return_code":"SUCCESS","sign":"14984C5B90323C5DF0113A31375C80C2","time_end":"20190510155524","total_fee":"1","trade_type":"APP","transaction_id":"4200000307201905108761146160"}
+[2019-05-10 15:55:25][debug] query:{"appid":"wx889f000f7b26c5c1","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"8d8Y8AAOXzd5fm9T","openid":"oG3g21pHylcL-3o_AzxtO8uF4pao","out_trade_no":"201905108078","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"4C38E248192F78604765329469B55477","time_end":"20190510155524","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"APP","transaction_id":"4200000307201905108761146160"}
+[2019-05-10 15:55:25][debug] -------------订单状态是未支付可以修改：-------------------1
+[2019-05-10 15:55:25][debug] -------------成功-------------------
+[2019-05-10 07:55:25][debug] 支付成功了
+[2019-05-10 17:05:55][debug] 微信回调开始
+[2019-05-10 17:05:55][debug] OK
+[2019-05-10 17:05:55][debug] -------------微信支付回调开始-------------------
+[2019-05-10 17:05:55][debug] call back:{"appid":"wxb1ff806d3e2480a2","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"201905101705502217525733","openid":"oG3g21pHylcL-3o_AzxtO8uF4pao","out_trade_no":"201905101009","result_code":"SUCCESS","return_code":"SUCCESS","sign":"3E68E0B2D2735CD39BFE03B7C8A74A74","time_end":"20190510170555","total_fee":"1","trade_type":"APP","transaction_id":"4200000295201905100258477001"}
+[2019-05-10 17:05:56][debug] query:{"appid":"wx889f000f7b26c5c1","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"Fc23Tz9iszj97bgP","openid":"oG3g21pHylcL-3o_AzxtO8uF4pao","out_trade_no":"201905101009","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"6320C0157A02371F6C6BF74A7619C2F3","time_end":"20190510170555","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"APP","transaction_id":"4200000295201905100258477001"}
+[2019-05-10 17:05:56][debug] -------------订单状态是未支付可以修改：-------------------1
+[2019-05-10 17:05:56][debug] -------------成功-------------------
+[2019-05-10 09:05:56][debug] 支付成功了
+[2019-05-10 17:12:42][debug] 微信回调开始
+[2019-05-10 17:12:42][debug] OK
+[2019-05-10 17:12:42][debug] -------------微信支付回调开始-------------------
+[2019-05-10 17:12:42][debug] call back:{"appid":"wxb1ff806d3e2480a2","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"201905101712367491009131","openid":"oG3g21pHylcL-3o_AzxtO8uF4pao","out_trade_no":"201905106822","result_code":"SUCCESS","return_code":"SUCCESS","sign":"0A977EB2F3DD70A87FE775ACF3E85042","time_end":"20190510171241","total_fee":"1","trade_type":"APP","transaction_id":"4200000301201905101235235628"}
+[2019-05-10 17:12:42][debug] query:{"appid":"wx889f000f7b26c5c1","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1522837421","nonce_str":"Y7tRMfrmBQ4UDfeF","openid":"oG3g21pHylcL-3o_AzxtO8uF4pao","out_trade_no":"201905106822","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"947C85255F8C7ACBB5B3E4DA082DB47F","time_end":"20190510171241","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"APP","transaction_id":"4200000301201905101235235628"}
+[2019-05-10 17:12:42][debug] -------------订单状态是未支付可以修改：-------------------1
+[2019-05-10 17:12:42][debug] -------------成功-------------------
+[2019-05-10 09:12:43][debug] 支付成功了

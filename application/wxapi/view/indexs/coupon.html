@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的优惠券</title>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <style>
+        .couponItem {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 11px;
+            padding: 15px 15px 14px 15px;
+            border-radius: 8px;
+            background-image: url('data:image/png;base64,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');
+            background-size: cover;
+        }
+
+        .couponItem > img {
+            width: 66px;
+            height: 53px;
+            margin-right: 18.5px;
+            flex: 0 0 66px;
+        }
+
+        .couponItemRight {
+            align-self: flex-start;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .couponItemRight div {
+            font-size: 11px;
+            font-weight: 400;
+        }
+    </style>
+</head>
+<body>
+
+<div style="background-color: #f4f4f4;height: 100vh; padding: 0 15px;overflow: auto;">
+    <div style="display: flex; justify-content: space-between; align-items: center;font-size:12px;font-weight:400;
+color:rgba(153,153,153,1); margin-top: 20px;">
+        <div class="">优惠卷</div>
+        <div class="">{$count}张</div>
+    </div>
+    <?php
+    if(!empty($coupon)){
+    foreach($coupon as $key=>$vo){ ?>
+    <div class="couponItem" style="">
+        <img src="data:image/png;base64,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"/>
+        <div class="couponItemRight">
+            <vuew style="display: flex; justify-content: space-between;">
+                <div>
+                    <div style="font-size:14px ;font-weight:500;color:rgba(51,51,51,1);">{$vo.coupon_name}
+                    </div>
+                </div>
+                <div>
+                    <div style="display: inline-block;font-size:25px;font-weight:bold;color:rgba(73,80,113,1);">
+                        {$vo.minus_money}
+                    </div>
+                    <div style="display: inline-block;margin-left: 5px;font-weight:500;color:rgba(73,80,113,1);">
+                        元
+                    </div>
+                </div>
+            </vuew>
+            <div style="display: flex; justify-content: space-between; margin-top: 28.5px;">
+                <div style="color:rgba(153,153,153,1);">
+                    有效期:{$vo.validity}
+                </div>
+                <div>满{$vo.pay_money}元可用</div>
+            </div>
+        </div>
+    </div>
+    <?php }
+    }
+   ?>
+</div>
+</body>
+</html>

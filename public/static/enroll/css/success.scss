@@ -1,0 +1,49 @@
+html {
+    font-size: 100px;
+    height: 100%;
+}
+
+header {
+    img {
+        width: 0.25rem;
+        height: 0.25rem;
+        margin-left: 0.3rem;
+        margin-top: 0.4rem;
+    }
+}
+
+main {
+    text-align: center;
+    >h1 {
+        margin-top: 1.15rem;
+        font-weight: 500;
+        color: rgba(51, 51, 51, 1);
+        font-size: 0.36rem;
+    }
+    >h3 {
+        margin-top: 0.62rem;
+        font-size: 0.28rem;
+        font-weight: 400;
+        color: rgba(51, 51, 51, 1);
+    }
+    >img {
+        margin-top: 0.68rem;
+        width: 4.44rem;
+        height: 4.44rem;
+    }
+    >p {
+        font-size: 0.22rem;
+        font-weight: 400;
+        color: rgba(153, 153, 153, 1);
+        margin-top: 0.25rem;
+    }
+    >div {
+        margin-top: 1.57rem;
+        >p {
+            font-size: 0.26rem;
+            font-weight: 400;
+            color: rgba(102, 102, 102, 1);
+            line-height: 2;
+        }
+    }
+}

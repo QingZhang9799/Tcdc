@@ -1,0 +1,7 @@
+2019-10-19 14:37:22  支付宝回调开始：======================
+2019-10-19 14:37:22  回调开始1
+2019-10-19 14:37:22  回调开始：true
+2019-10-19 14:37:22  回调开始：{"gmt_create":"2019-10-18 14:08:28","charset":"UTF-8","gmt_payment":"2019-10-18 14:08:34","notify_time":"2019-10-19 14:37:20","subject":"\u6708\u5ea6\u4f1a\u5458","sign":"LzRX0HMN7zam2ydK0POc4eGu+4Zx+j0bF0CEYOJJEFSg4tavYE+V4GJ+HM\/myw10iszp8QXAtswElb2ejbwDNOEC0ehYmiPjqKsTYelBJWBC+0DXvrSP\/fhQqgsecs9FPTMiGQIV63Tcp+8rRyoXDdlQcKv4b7KJYHZuVy1zJMd93bzKAzTKomh2bepVL40C5Su07F\/fQuJvjjxVwS8pRYWjcYEIAUsinB+p4rJZMvs3+VieiLoPNHihxW8cDV3NHSJpbnqO+syKqemZjafnkwlkTLaLRXHm53zGJ1xYLF1haiPjfUcUVHMbAay+fEPJn1QSMxMJitpEm2O6C0rpJw==","buyer_id":"2088902083720580","body":"vip,4,1,1,1","invoice_amount":"0.01","version":"1.0","notify_id":"2019101800222140834020580593317046","fund_bill_list":"[{\"amount\":\"0.01\",\"fundChannel\":\"PCREDIT\"}]","notify_type":"trade_status_sync","out_trade_no":"A18789005100805","total_amount":"0.01","trade_status":"TRADE_SUCCESS","trade_no":"2019101822001420580576696450","auth_app_id":"2019081566246497","receipt_amount":"0.01","point_amount":"0.00","buyer_pay_amount":"0.01","app_id":"2019081566246497","sign_type":"RSA2","seller_id":"2088131048153192"}
+2019-10-19 14:37:22  回调开始2
+2019-10-19 14:37:22  vip,4,1,1,1
+2019-10-19 14:37:22  成功vip

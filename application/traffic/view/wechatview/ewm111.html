@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 100px;">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+<title>伽伽出行</title>
+
+<head>
+    <script src="https://res.wx.qq.com/open/js/jweixin-1.6.0.js"></script>
+    <link type="text/css" rel="styleSheet" href="/public/weui.css"/>
+</head>
+<script>
+    ~function anonymous(window) {
+        let setREM = function setREM() {
+            let wWith = document.documentElement.clientWidth
+            const dWith = 750
+            if (wWith >= dWith) {
+                document.documentElement.style.fontSize = `100px`
+                return
+            }
+            document.documentElement.style.fontSize = wWith / dWith * 100 + "px"
+        }
+        setREM()
+        window.addEventListener('resize', setREM)
+    }(window)
+</script>
+<style>
+    .btn {
+        position: absolute;
+        z-index: 2;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        border: 0;
+        background-color: transparent;
+    }
+    #launch-btn {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        display: block;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+</style>
+
+<body>
+<div style="position: fixed; left: 0; top: 0; height: 100vh; width: 100vw; background-color: rgb(172,204,95);overflow: hidden;">
+    <img src="/public/static/home/images/bg_img.jpg"
+         style="width: 100vw; height:176vw; position: absolute; left:0; top: 50%; transform: translateY(-50%);" alt="">
+    <div class="btn">
+        <img src="/public/static/home/images/btn.png" style="width: 2.95rem; height:0.96rem; position: absolute;bottom: 15%;left: 0;right: 0;margin: auto;">
+        <p style=" position: absolute;bottom: 10%;left: 0;right: 0;margin: auto;color:#d8f78d;font-size: small;text-align: center">点击确定进入伽伽出行</p>
+        <a href="https://a.app.qq.com/o/simple.jsp?pkgname=net.tongchengdache.user" id="linkToApp"
+           style="width: 100vw;height: 100vh;position: absolute;top: 0;left: 0;right: 0;bottom: 0;z-index: 2"></a>
+        <wx-open-launch-weapp id="launch-btn" username="gh_04d160edc842" path="pages/index/index.html{$data.param}">
+            <template>
+                <style>  .wx-btn {   color: #666; width: 100rem; height:100rem; display: block; text-aligin:center;z-index: 3 }</style>
+                <div class="wx-btn"> </div>
+            </template>
+        </wx-open-launch-weapp>
+    </div>
+</div>
+
+<script>
+    wx.config({
+        debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印
+        appId: '{$data.appid}', // 必填，公众号的唯一标识
+        timestamp: "{$data.timestamp}", // 必填，生成签名的时间戳
+        nonceStr: '{$data.noncestr}', // 必填，生成签名的随机串
+        signature: '{$data.signature}', // 必填，签名
+        jsApiList: ['updateAppMessageShareData'], // 必填，需要使用的JS接口列表
+        openTagList: ['wx-open-launch-weapp'] // 可选，需要使用的开放标签列表，例如['wx-open-launch-app']
+    });
+    wx.ready(function () {
+        var btn = document.getElementById('launch-btn');
+        btn.style.display = " ";
+        var link=document.getElementById("linkToApp");
+        link.remove();
+        btn.addEventListener('launch', function (e) {
+            const template = document.getElementById('template')
+            const launchBtn = document.getElementById('launch-btn')
+            launchBtn.append(template.content)
+        });
+        btn.addEventListener('error', function (e) {
+            const template = document.getElementById('template')
+            const launchBtn = document.getElementById('launch-btn')
+            launchBtn.append(template.content)
+        });
+        // config信息验证后会执行ready方法，所有接口调用都必须在config接口获得结果之后，config是一个客户端的异步操作，所以如果需要在页面加载时就调用相关接口，则须把相关接口放在ready函数中调用来确保正确执行。对于用户触发时才调用的接口，则可以直接调用，不需要放在ready函数中
+    });
+    wx.error(function (res) {
+//        console.log( res ) ;
+        // config信息验证失败会执行error函数，如签名过期导致验证失败，具体错误信息可以打开config的debug模式查看，也可以在返回的res参数中查看，对于SPA可以在这里更新签名
+    });
+</script>
+<script>
+
+    // console.log('temp :>>', secondClone)
+</script>
+</body>
+
+</html>

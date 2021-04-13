@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>同城打车</title>
+    <!-- <link rel="stylesheet" href="./css/swiper.min.css"> -->
+    <link rel="stylesheet" href="__BJNEWS__/css/base.css" />
+    <link rel="stylesheet" href="__BJNEWS__/css/index.css" />
+
+    <script>
+        ~(function anonymous(window) {
+            let setREM = function setREM() {
+                let wWith = document.documentElement.clientWidth;
+                const dWith = 750;
+                if (wWith >= dWith) {
+                    document.documentElement.style.fontSize = `100px`;
+                    return;
+                }
+                document.documentElement.style.fontSize =
+                    (wWith / dWith) * 100 + "px";
+            };
+            setREM();
+            window.addEventListener("resize", setREM);
+        })(window);
+    </script>
+</head>
+
+<body>
+<header>
+    <img class="bolang" src="__BJNEWS__/images/bolang.png" alt="">
+    <div class="title">个人中心</div>
+    <div class="avata">
+        <!--<img src="__BJNEWS__/images/erweima.png" alt="">-->
+        <img src="{$user.portrait}" alt="">
+    </div>
+    <div class="name">{$user.nickname}</div>
+</header>
+<div class='mainWrap'>
+    <div class='topWrap'>
+
+        <?php if( $user['is_bangding'] == 1){ ?>
+            <div class="item">
+                <img src="__BJNEWS__/images/bangding.png" alt="">
+                <p>已绑定</p>
+            </div>
+        <?php } ?>
+        <?php if( $user['is_bangding'] == 0){ ?>
+        <a href="https://php.51jjcx.com/wxapi/indexs/phonenumber.html?user_id={$user.id}" class="item">
+            <img src="__BJNEWS__/images/bangding.png" alt="">
+            <p>绑定手机</p>
+        </a>
+        <?php } ?>
+        <div style='width: .25rem;'></div>
+        <div class="item">
+            <img src="__BJNEWS__/images/erweima.png" alt="">
+            <p>二维码</p>
+        </div>
+    </div>
+    <a href="https://php.51jjcx.com/wxapi/indexs/trip.html?user_id={$user.id}" class="item">
+        <div class="lisrWrap">
+            <div class="listItemLeft">
+                <div class="item">
+                   <img src="__BJNEWS__/images/dingdan.png" alt="">
+                </div>
+                <p>我的订单</p>
+            </div>
+            <div class="listItemRight"></div>
+        </div>
+    </a>
+    <a href="https://php.51jjcx.com/wxapi/indexs/coupon.html?user_id={$user.id}">
+        <div class="lisrWrap">
+            <div class="listItemLeft">
+                <div class="item">
+                    <img src="__BJNEWS__/images/youhuiquan.png" alt="">
+                </div>
+                <p>我的优惠券</p>
+            </div>
+            <div class="listItemRight"></div>
+        </div>
+    </a>
+</div>
+</body>
+</html>

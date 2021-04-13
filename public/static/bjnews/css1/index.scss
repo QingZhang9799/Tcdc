@@ -1,0 +1,203 @@
+html {
+  font-size: 100px;
+  height: 100%;
+  min-height: 100vh;
+  background-color: RGBA(243, 243, 249, 1);
+}
+
+header {
+  background-color: #3275fd;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  .title {
+    margin-top: 0.36rem;
+    font-size: 0.36rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+  }
+  .avata {
+    margin-top: 0.65rem;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    width: 100%;
+    > img {
+      width: 2rem;
+      height: 2rem;
+      border-radius: 1rem;
+    }
+  }
+  .name {
+    text-align: center;
+    font-size: 0.3rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 0.7rem;
+    position: relative;
+    z-index: 2;
+  }
+  .bolang {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+  }
+}
+.mainWrap {
+  overflow: hidden;
+
+  padding: 0 0.25rem;
+
+  .topWrap {
+    margin-top: 0.22rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .item {
+      background-color: #fff;
+      border-radius: 10px;
+      text-align: center;
+      flex: 1;
+
+      > img {
+        width: 0.74rem;
+        height: 0.74rem;
+        margin-top: 0.3rem;
+        margin-bottom: 0.2rem;
+      }
+      > p {
+        margin-bottom: 0.3rem;
+
+        font-size: 0.3rem;
+        font-family: Microsoft YaHei;
+        font-weight: 400;
+        color: #333333;
+      }
+    }
+  }
+
+  .lisrWrap {
+    background-color: #fff;
+    margin-top: 0.22rem;
+    padding: 0.22rem 0.3rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    .listItemLeft {
+      display: flex;
+      align-items: center;
+      > div {
+        width: 0.6rem;
+        height: 0.6rem;
+        background-color: #3275fd;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        margin-right: 0.2rem;
+        > img {
+          width: 0.32rem;
+          height: 0.32rem;
+        }
+      }
+
+      > p {
+        font-size: 0.3rem;
+        font-family: Microsoft YaHei;
+        font-weight: 400;
+        color: #333333;
+      }
+    }
+    .listItemRight {
+      width: 0.2rem;
+      height: 0.2rem;
+      border-top: 0.01rem solid #999;
+      border-right: 0.01rem solid #999;
+      transform: rotate(45deg);
+    }
+  }
+}
+.phoneHeader {
+  width: 100%;
+  height: calc(100vw * 3.2rem / 7.5rem);
+}
+
+.PhoneMainWrap {
+  overflow: hidden;
+  padding-left: 0.25rem;
+  background-color: #fff;
+  margin-top: 0.2rem;
+  .list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.36rem 0;
+    padding-right: 0.4rem;
+    font-size: 0.3rem;
+    font-weight: normal;
+    color: #282828;
+  }
+  .getCode {
+    border: 0.01rem solid rgba(27, 130, 209, 1);
+    color: rgba(27, 130, 209, 1);
+    padding: 0.1rem;
+    border-radius: 5px;
+    font-size: 0.24rem;
+    &:active {
+      background-color: rgba(27, 130, 209, 1);
+      color: #fff;
+    }
+  }
+}
+.save {
+  position: fixed;
+  width: calc(100vw - 1.5rem);
+  left: 50%;
+  bottom: 0.5rem;
+  padding: 0.32rem;
+  text-align: center;
+  background-color: rgba(27, 130, 209, 0.9);
+  border-radius: 0.15rem;
+  transform: translateX(-50%);
+  font-size: 0.38rem;
+  font-weight: normal;
+  color: #ffffff;
+  letter-spacing: 0.06rem;
+}
+
+// 取消提示框
+.cancelCallMain {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  left: 0;
+  height: 100vh;
+  background-color: #fff;
+  .wrap {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    .img {
+      width: 3.42rem;
+      height: 2.17rem;
+    }
+
+    .tip {
+      margin-top: 0.1rem;
+      font-size: .36rem;
+      color: #757474;
+      letter-spacing: 0.03rem;
+      font-weight: bold;
+    }
+  }
+}
+// @import "./solution.css"

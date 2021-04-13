@@ -1,0 +1,55 @@
+html {
+  font-size: 100px;
+  min-height: 100%;
+}
+
+div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrap {
+  min-height: 100vh;
+  padding-bottom: .2rem;
+}
+
+.wrap .bg > img {
+  width: 100vw;
+  height: calc(100vw * 750 / 10.32rem);
+}
+
+.wrap .buttonWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrap .buttonWrap .button {
+  width: 2rem;
+  height: 0.7rem;
+  margin-top: .7rem;
+}
+
+.wrap .buttonWrap > p {
+  font-size: .16rem;
+  margin-top: .3rem;
+  color: #a1a1a1;
+  letter-spacing: 2px;
+}
+
+.wrap .buttonWrap .buttonInfo {
+  width: 2.15rem;
+  height: 0.22rem;
+  margin-top: .15rem;
+}
+/*# sourceMappingURL=index.css.map */

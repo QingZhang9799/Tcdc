@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的订单</title>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+<body>
+
+<div style="padding-top:10px;background-color: #F6F3F7;min-height: 100vh;">
+    <div style="display: flex;flex-direction: column;background-color: #FFFFFF;box-shadow:0px 1px 5px 0px rgba(0, 0, 0, 0.11);
+border-radius:10px;padding: 15px;margin: 15px;">
+       <?php foreach($orders as $key=>$item){   ?>
+        <div style="display: flex;justify-content: space-between;align-items: center;margin-bottom: 10px;">
+            <div style="color:#333333;font-size: 18px;font-weight: 500;"><span>{$item.order_name}</span></div>
+            <div style="color:#ED880F;font-size: 14px;display: flex;align-items: center;justify-content: center;">
+                <div style='color:rgba(153,153,153,1);'>{$item.status_str}</div>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAMAAADzapwJAAAAhFBMVEUAAACAgICAgICSkpKZmZmZmZmZmZmbm5uZmZmYmJiZmZmXl5eWlpaXl5eampqZmZmampqYmJiZmZmXl5eZmZmYmJiampqZmZmYmJiZmZmYmJiYmJiZmZmYmJiYmJiZmZmZmZmZmZmZmZmYmJiZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZl2nvoxAAAAK3RSTlMAAgQHCg8UFx4lLTY/QElVYGFue3t8iImXoqOuub2/w8zZ4efs8vX5/P3+Q7m2NAAAAHRJREFUGNON0UkWgjAQBNAIghAEEcGIjKKAse5/P8M6lffo5V/0VEKYkv1JkOrwigiHI6aYeDDgLYkfW3wS4n6D+Uzce2LJiB8eWC9sT4Vvzrz66RvzQuPOWdla0iZm5HXngl7NztmOT3e+ij/WEYMjNDviP9IXCeboUdUYAAAAAElFTkSuQmCC" style="width:14px;height: 14px;margin-left: 4px;"/>
+            </div>
+        </div>
+        <div>
+            <div style="color: #666666;font-size:12px;display: flex;align-items: center;margin-bottom: 7.5px;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAQAAAD8fJRsAAAAtklEQVQYGU3BQQ7BQAAF0L9otAs3mOIqtiJh1cRKiPk/3VTVKUxwE0uXEK0eoT2KGo14Dx+bSAVLNWr0VJGF+NqOWMulBh0by+llYwCbiLXm+KM56ywEjzzBk6zgyamAqrWBx5w5vNSwBFv0mDNHjy3YoscV79MAHluwtDF6dLxNA2A70hM68IwfOl4Bnu0BWagXF/hJhnbJahYCSI0qXTRGZzfhlWVq8JUMtOdDjRo+7D4ZoPMG+w9C9o+jYSQAAAAASUVORK5CYII=" style="width: 12.5px;height: 12.5px;margin-right: 7.5px;"/>
+                {$item.create_times}
+            </div>
+            <div style="display: flex;justify-content: flex-start;align-items: center;font-size: 15px;color: #333333;margin-bottom: 5px;">
+                <div style="width: 7px;height: 7px;border-radius: 7px;background-color:#18CDAD ;margin-right: 10px;"></div>
+                {$item.origin}
+            </div>
+            <div style="display: flex;justify-content: space-between;align-items: center;font-size: 15px;color: #333333;margin-bottom: 5px;">
+                <div style="width: 7px;height: 7px; flex: 0 0 7px;border-radius: 7px;background-color:#ED880F ;margin-right: 10px;"></div>
+                <div style="flex:1">
+                    {$item.Destination}
+                </div>
+                <div  style="color:#ED880F;">
+                    {$item.money}元
+                </div>
+            </div>
+        </div>
+        <?php } ?>
+    </div>
+</div>
+
+</body>
+</html>

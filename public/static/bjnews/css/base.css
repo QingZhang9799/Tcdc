@@ -1,0 +1,47 @@
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+html,
+body,
+h1,
+h2,
+h4,
+a,
+ul,
+li,
+p,
+button,
+header,
+nav,
+hr,
+section,
+footer,
+main {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* font-family: Microsoft YaHei; */
+    font-family: PingFang SC;
+    font-weight: 400;
+    font-size: 0;
+}
+
+input {
+    outline-style: none;
+    border-style: none;
+}
+
+main {
+    max-width: 950px;
+    margin: 0 auto;
+}

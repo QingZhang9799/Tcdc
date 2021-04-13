@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>同城打车</title>
+    <!-- <link rel="stylesheet" href="./css/swiper.min.css"> -->
+    <link rel="stylesheet" href="__BJNEWS__/css1/base.css" />
+    <link rel="stylesheet" href="__BJNEWS__/css1/index.css" />
+
+    <script>
+      ~(function anonymous(window) {
+        let setREM = function setREM() {
+          let wWith = document.documentElement.clientWidth;
+          const dWith = 750;
+          if (wWith >= dWith) {
+            document.documentElement.style.fontSize = `100px`;
+            return;
+          }
+          document.documentElement.style.fontSize =
+            (wWith / dWith) * 100 + "px";
+        };
+        setREM();
+        window.addEventListener("resize", setREM);
+      })(window);
+    </script>
+  </head>
+
+  <body>
+    <div class="cancelCallMain">
+      <div class="wrap">
+        <img class="img" src="__BJNEWS__/images/tipImg.png" alt="" />
+        <div class="tip">您的订单已取消</div>
+        <div class="tip">如需要用车请回首页重新下单</div>
+      </div>
+    </div>
+  </body>
+</html>

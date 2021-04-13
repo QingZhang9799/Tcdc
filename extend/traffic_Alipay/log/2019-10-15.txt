@@ -1,0 +1,68 @@
+2019-10-15 09:07:29  {"product_code":"FAST_INSTANT_TRADE_PAY","body":"deposit,27,0,1,1","subject":"购买保证金","out_trade_no":"A15016496160343","total_amount":"0.01"}
+2019-10-15 09:07:29  response: '<form id=\'alipaysubmit\' name=\'alipaysubmit\' action=\'https://openapi.alipay.com/gateway.do?charset=UTF-8\' method=\'POST\'><input type=\'hidden\' name=\'biz_content\' value=\'{"product_code":"FAST_INSTANT_TRADE_PAY","body":"deposit,27,0,1,1","subject":"购买保证金","out_trade_no":"A15016496160343","total_amount":"0.01"}\'/><input type=\'hidden\' name=\'app_id\' value=\'2019081566246497\'/><input type=\'hidden\' name=\'version\' value=\'1.0\'/><input type=\'hidden\' name=\'format\' value=\'json\'/><input type=\'hidden\' name=\'sign_type\' value=\'RSA2\'/><input type=\'hidden\' name=\'method\' value=\'alipay.trade.page.pay\'/><input type=\'hidden\' name=\'timestamp\' value=\'2019-10-15 09:07:29\'/><input type=\'hidden\' name=\'alipay_sdk\' value=\'alipay-sdk-php-20161101\'/><input type=\'hidden\' name=\'notify_url\' value=\'http://www.gochuangyi.com/user_api/Alipay/notify\'/><input type=\'hidden\' name=\'charset\' value=\'UTF-8\'/><input type=\'hidden\' name=\'sign\' value=\'HuFiuCXqdN2EQKewt6NZ1auyrJXFl0YwT7l9o1Ex/RHrPTvc5a9VzXaKBRuZ8d6ZatggmbbfUa6tk1WjyaDwsQffqfQGQBXrQwQD4CBUc/HLRdjNxHzQ0TIQeQJb4diw9lA798zx21u8dav7lrgPCF4ak+rmO0aJtzyL5VaF2WMfbL/ynl1ogC4iPoUks9WvOmCVvNblyl77QmJDsxitWbyWcTJcAgo5kuth7Fuh0C17nGVJUqbSWARRinFsWT3HqjrA6drT/8AAaTxFQahu4ZhXXjMiZ0pA/If626PkHdyCaKrJPBUPxvNTD46vy0mJP+GsawKqqSzTY+8hEUmRUA==\'/><input type=\'submit\' value=\'ok\' style=\'display:none;\'\'></form><script>document.forms[\'alipaysubmit\'].submit();</script>'
+2019-10-15 09:07:52  支付宝回调开始：======================
+2019-10-15 09:07:52  回调开始1
+2019-10-15 09:07:52  回调开始：true
+2019-10-15 09:07:52  回调开始：{"gmt_create":"2019-10-15 09:07:45","charset":"UTF-8","gmt_payment":"2019-10-15 09:07:51","notify_time":"2019-10-15 09:07:51","subject":"\u8d2d\u4e70\u4fdd\u8bc1\u91d1","sign":"KdYHQIqPnAzmQLETzvLv+1HWNBz+TLrV36X8gfVevgD+OVg3jrMNMv+AXJkd8AXIFgRva++Fa\/+1a7a+pSVVHh2GX99\/NLUTf30OM8kw8X7ZQWSYCHu\/EIn5eamVWRNNE6444QnAu145hxXpmEsSaKeKEiz67eMLy10bPjS7NlQA2uUEzH7KmnSiit9zUvAdwfU5AE\/lbQOa+gdgIBccQCMx7cLbZ7\/qbWUbM91JIiLlVgSSz6bwRnv4DECY2AlWcyFmR7pQTKY4n88pGnMjFJX3lkfmzW3riF6qFhGZiRzuhkeKdutaPjKLYghBzJYHEipJLIPIvav9SekYbfs2wQ==","buyer_id":"2088402678637203","body":"deposit,27,0,1,1","invoice_amount":"0.01","version":"1.0","notify_id":"2019101500222090751037201404449868","fund_bill_list":"[{\"amount\":\"0.01\",\"fundChannel\":\"ALIPAYACCOUNT\"}]","notify_type":"trade_status_sync","out_trade_no":"A15016496160343","total_amount":"0.01","trade_status":"TRADE_SUCCESS","trade_no":"2019101522001437201401914626","auth_app_id":"2019081566246497","receipt_amount":"0.01","point_amount":"0.00","buyer_pay_amount":"0.01","app_id":"2019081566246497","sign_type":"RSA2","seller_id":"2088131048153192"}
+2019-10-15 09:07:52  回调开始2
+2019-10-15 09:07:52  deposit,27,0,1,1
+2019-10-15 09:07:52  成功保证金
+2019-10-15 09:10:10  支付宝回调开始：======================
+2019-10-15 09:10:10  回调开始1
+2019-10-15 09:10:10  回调开始：true
+2019-10-15 09:10:10  回调开始：{"gmt_create":"2019-10-15 09:07:45","charset":"UTF-8","gmt_payment":"2019-10-15 09:07:51","notify_time":"2019-10-15 09:10:10","subject":"\u8d2d\u4e70\u4fdd\u8bc1\u91d1","sign":"iojtAcs2Y4fs0xl\/DKHSz\/vtCUaShTeHTcamFsuJg6RUu0UbtKrpmm\/Pss+rQklCZucTdbwk54UPS9RwUxxvegqbblCPQPzY5nzv4r7okq7QmxM5a9twp5bS7i4OG+8peWr4NAM8oa9JRZUnnzt4uaQyM5bGRYoWFmBIqVvS50BJ5mt4tR8v0vSfHoRtEl4RgrvjNQ\/+sSTGUHwqMT3WPYNPzz\/+CJwQGxCkjvz2ZTAHjIRVhVwP8YXBU+DW38XsRNsKP7xjzbEm0uX4n8ilIkRqOVzZpUBmemmqWPkQjs081p7f+WCBUuWolf\/pPJoXqxKh+ZD1F4gHocnOxK\/Dpg==","buyer_id":"2088402678637203","body":"deposit,27,0,1,1","invoice_amount":"0.01","version":"1.0","notify_id":"2019101500222090751037201404449868","fund_bill_list":"[{\"amount\":\"0.01\",\"fundChannel\":\"ALIPAYACCOUNT\"}]","notify_type":"trade_status_sync","out_trade_no":"A15016496160343","total_amount":"0.01","trade_status":"TRADE_SUCCESS","trade_no":"2019101522001437201401914626","auth_app_id":"2019081566246497","receipt_amount":"0.01","point_amount":"0.00","buyer_pay_amount":"0.01","app_id":"2019081566246497","sign_type":"RSA2","seller_id":"2088131048153192"}
+2019-10-15 09:10:10  回调开始2
+2019-10-15 09:10:10  deposit,27,0,1,1
+2019-10-15 09:10:10  成功保证金
+2019-10-15 09:21:24  支付宝回调开始：======================
+2019-10-15 09:21:24  回调开始1
+2019-10-15 09:21:24  回调开始：true
+2019-10-15 09:21:24  回调开始：{"gmt_create":"2019-10-15 09:07:45","charset":"UTF-8","gmt_payment":"2019-10-15 09:07:51","notify_time":"2019-10-15 09:21:24","subject":"\u8d2d\u4e70\u4fdd\u8bc1\u91d1","sign":"kke\/Y8YX+lQB1l1BzBKnq3q7wQg+d8zejq9gchs9CQk3jLyv1oT\/V68N1dYrc8q\/e0JLpc5+kuJHiJ5TojnYcmJdWYJWqnJhKZObBiqwgBXbf9XCDpoCCdjJfs4hdvsJoizAk+RlZt\/pOoulX0A1gvjNjZ3l1m9NegB7BdK168TavVp03X3xBwbG7osZM+ZK0jayufirOylES46Ner40ixfxFMuZkE1mcLzcBsxLgfs4cfviWiQU9Y5zT+n\/sEHeT8o9DcGbr44yCwCcxVm+JArhf6NgMegyq9pER9CzP+oGSkqBO\/yeL3sMsEhM8WtloxZrXx5HhcW6R5Zd7PQoMQ==","buyer_id":"2088402678637203","body":"deposit,27,0,1,1","invoice_amount":"0.01","version":"1.0","notify_id":"2019101500222090751037201404449868","fund_bill_list":"[{\"amount\":\"0.01\",\"fundChannel\":\"ALIPAYACCOUNT\"}]","notify_type":"trade_status_sync","out_trade_no":"A15016496160343","total_amount":"0.01","trade_status":"TRADE_SUCCESS","trade_no":"2019101522001437201401914626","auth_app_id":"2019081566246497","receipt_amount":"0.01","point_amount":"0.00","buyer_pay_amount":"0.01","app_id":"2019081566246497","sign_type":"RSA2","seller_id":"2088131048153192"}
+2019-10-15 09:21:24  回调开始2
+2019-10-15 09:21:24  deposit,27,0,1,1
+2019-10-15 09:21:24  成功保证金
+2019-10-15 09:32:07  支付宝回调开始：======================
+2019-10-15 09:32:07  回调开始1
+2019-10-15 09:32:07  回调开始：true
+2019-10-15 09:32:07  回调开始：{"gmt_create":"2019-10-15 09:07:45","charset":"UTF-8","gmt_payment":"2019-10-15 09:07:51","notify_time":"2019-10-15 09:32:07","subject":"\u8d2d\u4e70\u4fdd\u8bc1\u91d1","sign":"nBO9qrxbSOL70Ao2gxzEEhVUQZkcaEnMHqhj\/wYWD1Vz+4rTFN+V6TFhkdCjs+I+t6mj3PpeFxVB75eTUKMQWaLKmoWDV59z7RCQM7eT475ZpKNinW17t7CKNrgC3tDjIpVn9MKsuBQb64nXFlQYfOjN7kY1vl+OU6SZfnWbAT8WfyBEqxccJRPDPzvHH0tJRaMKMLlb2k4VnupRfs8dFqu4aLPuLYJIE+rdvnO2RSznmHmWCN7N6dPRu8zsSaSlRkEha+LLlyMHE+nXAPQw+QIdxLD3CXannm1nAJF7IqPi7nFstEV\/biBRQ9gad6UHi+tgpge84aaeKRLtwxdcFg==","buyer_id":"2088402678637203","body":"deposit,27,0,1,1","invoice_amount":"0.01","version":"1.0","notify_id":"2019101500222090751037201404449868","fund_bill_list":"[{\"amount\":\"0.01\",\"fundChannel\":\"ALIPAYACCOUNT\"}]","notify_type":"trade_status_sync","out_trade_no":"A15016496160343","total_amount":"0.01","trade_status":"TRADE_SUCCESS","trade_no":"2019101522001437201401914626","auth_app_id":"2019081566246497","receipt_amount":"0.01","point_amount":"0.00","buyer_pay_amount":"0.01","app_id":"2019081566246497","sign_type":"RSA2","seller_id":"2088131048153192"}
+2019-10-15 09:32:07  回调开始2
+2019-10-15 09:32:07  deposit,27,0,1,1
+2019-10-15 09:32:07  成功保证金
+2019-10-15 10:01:40  {"trade_no":"2019101522001437201401914626","refund_amount":"0.01","refund_reason":"正常退款"}
+2019-10-15 10:01:41  response: stdClass::__set_state(array(
+   'alipay_trade_refund_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => 'fur***@sina.cn',
+     'buyer_user_id' => '2088402678637203',
+     'fund_change' => 'Y',
+     'gmt_refund_pay' => '2019-10-15 10:01:41',
+     'out_trade_no' => 'A15016496160343',
+     'refund_fee' => '0.01',
+     'send_back_fee' => '0.00',
+     'trade_no' => '2019101522001437201401914626',
+  )),
+   'sign' => 'bjNR3evP4K0BR8YpyjF1YiJ5Hy03l94nV4oUdIyu+98kdx4Iai1SNqO9nGRPZfRIfMkmWJ6c71vOoxkGtKelxmr3fyaM7CKrU25OssJ+re/fFaNvbgKxaxzizGmOU8OPLexsPnpXOWboIxF3OLGlgVgRWEOnfOMeXt5kyGh6T5bSrEtG16KvCVEkxLUXgUEvYO6ZAWucm8+eWsjwpAu7202npaI+87ShQEBRt8xnlipIG5leWmK1geySQgEl6FD596cNaIwXZWzG0H53kzEDz2c4o6DUHxGwqgxq4bfw/qaJjvOaL5SW3vKIqxrAh8yYl8ImW9ngvpB002O7ZzTFWg==',
+))
+2019-10-15 10:33:19  支付宝回调开始：======================
+2019-10-15 10:33:19  回调开始1
+2019-10-15 10:33:19  回调开始：true
+2019-10-15 10:33:19  回调开始：{"gmt_create":"2019-10-15 09:07:45","charset":"UTF-8","gmt_payment":"2019-10-15 09:07:51","notify_time":"2019-10-15 10:33:18","subject":"\u8d2d\u4e70\u4fdd\u8bc1\u91d1","sign":"iZTddaB3DypY7EL1T0gxBOhJVLdtFCJC2HLHM3muduaecRRmzyIxo9VaDCBy35jS2j1ULpKDmRgAKana2gQ513Qd7UgIW4Np\/BTg\/RlL2gdTJ0zN+3najmXoorzPdpTsL7WdvmP9V9\/uL52sFFP2A9vR2UDqwm4o8dypmkCSQUfIqh1gHrgyKXVqfVYi0F+UZA0SlEcL5H91aFWoD3ol8dxKJkdrMexCG\/7VMh73DcVQxRtcJ02gBdOxc4T+1LBt\/7GvzhsRlKVX7GPlBzkjEGZrq5r0YIzdP\/MtuwKhi8XOvoEkQlry\/2acHanenCUzNpSeAUfnnUHmP\/seR+EhyA==","buyer_id":"2088402678637203","body":"deposit,27,0,1,1","invoice_amount":"0.01","version":"1.0","notify_id":"2019101500222090751037201404449868","fund_bill_list":"[{\"amount\":\"0.01\",\"fundChannel\":\"ALIPAYACCOUNT\"}]","notify_type":"trade_status_sync","out_trade_no":"A15016496160343","total_amount":"0.01","trade_status":"TRADE_SUCCESS","trade_no":"2019101522001437201401914626","auth_app_id":"2019081566246497","receipt_amount":"0.01","point_amount":"0.00","buyer_pay_amount":"0.01","app_id":"2019081566246497","sign_type":"RSA2","seller_id":"2088131048153192"}
+2019-10-15 10:33:19  回调开始2
+2019-10-15 10:33:19  deposit,27,0,1,1
+2019-10-15 10:33:19  成功保证金
+2019-10-15 12:34:39  支付宝回调开始：======================
+2019-10-15 12:34:39  回调开始1
+2019-10-15 12:34:39  回调开始：true
+2019-10-15 12:34:39  回调开始：{"gmt_create":"2019-10-15 09:07:45","charset":"UTF-8","gmt_payment":"2019-10-15 09:07:51","notify_time":"2019-10-15 12:34:38","subject":"\u8d2d\u4e70\u4fdd\u8bc1\u91d1","sign":"B8ll22XXYHpvcUsRdw8pt\/s7bbsBIFmbOAD0yaG4J5uZ+4QyRpga1RiMONEO41+ucuvV6hZKcrK2\/nLTcWIYMw+RZziM+UBayM3nVBmZ3nZhhFEgFTegiuH3UmSJScESQBxpnmmHbfKYHISssJbFDooghtXw+7Vu0SwSnxrUT7nKmUNvwjmiF0ya1+DJ8SUA0MsF3iuIvxL0kRkkl9TFtT7OhKkSUFOEAYx4K4bqjZnj6PRN+i+cvR13HI3arDqOMPl2QydYbAkmbeNBuQStcTmVkjgxtvAs15Bpu9KpyCkGc+rzNae8vjmYGsjJ\/+126L14rN9povYWlxOl5YJjHQ==","buyer_id":"2088402678637203","body":"deposit,27,0,1,1","invoice_amount":"0.01","version":"1.0","notify_id":"2019101500222090751037201404449868","fund_bill_list":"[{\"amount\":\"0.01\",\"fundChannel\":\"ALIPAYACCOUNT\"}]","notify_type":"trade_status_sync","out_trade_no":"A15016496160343","total_amount":"0.01","trade_status":"TRADE_SUCCESS","trade_no":"2019101522001437201401914626","auth_app_id":"2019081566246497","receipt_amount":"0.01","point_amount":"0.00","buyer_pay_amount":"0.01","app_id":"2019081566246497","sign_type":"RSA2","seller_id":"2088131048153192"}
+2019-10-15 12:34:39  回调开始2
+2019-10-15 12:34:39  deposit,27,0,1,1
+2019-10-15 12:34:39  成功保证金
+2019-10-15 18:35:41  支付宝回调开始：======================
+2019-10-15 18:35:41  回调开始1
+2019-10-15 18:35:41  回调开始：true
+2019-10-15 18:35:41  回调开始：{"gmt_create":"2019-10-15 09:07:45","charset":"UTF-8","gmt_payment":"2019-10-15 09:07:51","notify_time":"2019-10-15 18:35:41","subject":"\u8d2d\u4e70\u4fdd\u8bc1\u91d1","sign":"lecbsVL1zXPmDyxedQ2S8RWhHVJxDyqnMxllADyp6p7O\/Se8DhAJGKP4EXeSoPEZO\/Of6T11nYNuBXO3kGO2CQiftgmZpBLUyylMdqLY9FUYtU835tIxBOjEIM7CHBODiXiigD3Ro79aC2zgF1C1TvFMYfGxk9YXcSdZPBxCmZqC6v8KryQSFmqqRyw6LifU\/wHHb7jscnAfg1tIOlQi2\/UElqJ1HlGiH2TcQ8\/EEBP8C+meoXFKut87kv1fUK44ywY6k26JX\/qhOhV6W5h\/xx1IDixLrsLWzrH5gCa5fvAkbXWdhb\/PyYxYre7gMzOs7fW14xZ5TBSTfuAJuZzZYg==","buyer_id":"2088402678637203","body":"deposit,27,0,1,1","invoice_amount":"0.01","version":"1.0","notify_id":"2019101500222090751037201404449868","fund_bill_list":"[{\"amount\":\"0.01\",\"fundChannel\":\"ALIPAYACCOUNT\"}]","notify_type":"trade_status_sync","out_trade_no":"A15016496160343","total_amount":"0.01","trade_status":"TRADE_SUCCESS","trade_no":"2019101522001437201401914626","auth_app_id":"2019081566246497","receipt_amount":"0.01","point_amount":"0.00","buyer_pay_amount":"0.01","app_id":"2019081566246497","sign_type":"RSA2","seller_id":"2088131048153192"}
+2019-10-15 18:35:41  回调开始2
+2019-10-15 18:35:41  deposit,27,0,1,1
+2019-10-15 18:35:41  成功保证金

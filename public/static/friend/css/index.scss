@@ -1,0 +1,192 @@
+html {
+    font-size: 100px;
+    min-height: 100%;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    >img {
+        width: 7.5rem;
+        height: 4.23rem;
+    }
+}
+
+.bannerText {
+    margin-top: .5rem;
+    margin-left: .25rem;
+    >p {
+        margin-top: 0.15rem;
+        font-size: 0.5rem;
+        font-family: CTCuHeiSJ;
+        font-weight: 400;
+        color: #474A56;
+        >span {
+            color: #FEA019;
+        }
+    }
+}
+
+.introduction {
+    margin-top: .5rem;
+    padding: 0 .34rem;
+    font-size: 0.28rem;
+    font-family: PingFang;
+    font-weight: bold;
+    color: #747474;
+    line-height: 0.63rem;
+}
+
+.centerWrap {
+    padding: 0 .36rem;
+    position: relative;
+    >div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(../images/title_on.jpg);
+        background-size: cover;
+        width: 3.15rem;
+        // height: 0.64rem;
+        font-size: 0.29rem;
+        font-family: PingFang;
+        font-weight: bold;
+        color: #FFFFFF;
+        line-height: 0.63rem;
+        margin: 0 auto;
+        margin-top: 1rem;
+        letter-spacing: 0.02rem;
+    }
+    >p {
+        font-size: 0.27rem;
+        font-family: PingFang;
+        font-weight: 400;
+        color: #494C5A;
+        line-height: 0.63rem;
+        margin-top: .45rem;
+    }
+    .otherBack {
+        background-image: url(../images/title_off.jpg);
+    }
+    .bgImg {
+        width: 7.5rem;
+        height: 7.17rem;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 0;
+    }
+}
+
+.registWrap {
+    background-color: #EBEBEB;
+    margin-top: 1rem;
+    padding: 0 .33rem;
+    overflow: hidden;
+    >h1 {
+        font-size: 0.31rem;
+        font-family: PingFang;
+        font-weight: 400;
+        color: #000000;
+        line-height: 0.63rem;
+        margin-top: .37rem;
+        text-align: center;
+    }
+    >div {
+        margin-top: .32rem;
+        display: flex;
+        align-items: center;
+        >a {
+            font-size: 0.31rem;
+            color: #FF0000;
+            line-height: .53rem;
+        }
+        >span {
+            font-size: 0.31rem;
+            font-family: PingFang;
+            font-weight: 400;
+            color: #000000;
+            line-height: 0.63rem;
+        }
+    }
+    >input {
+        margin-top: 0.2rem;
+        line-height: .53rem;
+        background-color: #fff;
+        border: 0px solid #000000;
+        width: 100%;
+    }
+    >button {
+        font-size: 0.31rem;
+        font-family: PingFang;
+        font-weight: 400;
+        color: #fff;
+        text-align: center;
+        background-color: #FB9D12;
+        padding: .25rem 1.6rem;
+        margin: 0.7rem auto;
+        display: block;
+        border-radius: 0.15rem;
+        border: 0;
+        letter-spacing: 0.05rem;
+    }
+}
+
+.gongzhonghao {
+    text-align: center;
+    >h1 {
+        font-size: 0.31rem;
+        font-family: PingFang;
+        font-weight: 400;
+        color: #000000;
+        line-height: 0.63rem;
+        margin-top: .5rem;
+        letter-spacing: 0.02rem;
+        text-align: center;
+    }
+    >img {
+        width: 3.3rem;
+        height: 3.3rem;
+        margin-top: .48rem;
+    }
+}
+
+.line {
+    height: 2px;
+    background: #FFFFFF;
+    border: 0.01rem solid #000000;
+    margin-top: 0.55rem;
+}
+
+.scan {
+    text-align: center;
+    >h1 {
+        font-size: 0.31rem;
+        font-family: PingFang;
+        font-weight: 400;
+        color: #F99800;
+        line-height: 0.63rem;
+        margin-top: 1rem;
+        letter-spacing: 0.02rem;
+    }
+    >img {
+        width: 3.37rem;
+        height: 3.99rem;
+        margin-top: .65rem;
+    }
+}
+
+.phone {
+    text-align: center;
+    font-size: 0.31rem;
+    font-family: PingFang;
+    font-weight: 400;
+    color: #000000;
+    line-height: 0.63rem;
+    margin: 1rem 0;
+    letter-spacing: 0.02rem;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<body>
+<iframe id="mapPage" width="100%" height="100%" frameborder=0
+        src="http://apis.map.qq.com/tools/locpicker?search=1&type=1&key=NN5BZ-IUBCD-3SZ4Z-PBX4T-PKOS2-TDF5B&referer=myapp">
+</iframe>
+<script src="__HOME__/js/jquery-2.1.1.min.js"></script>
+<!--<script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>-->
+<script src="__HOME__/js/jweixin-1.2.0.js"></script>
+<script>
+    window.addEventListener('message', function(event) {
+        // 接收位置信息，用户选择确认位置点后选点组件会触发该事件，回传用户的位置信息
+        var loc = event.data;
+        if (loc && loc.module == 'locationPicker') {//防止其他应用也会向该页面post信息，需判断module是否为'locationPicker'
+            console.log('location', loc);
+        }
+    }, false);
+</script>
+<script>
+
+    wx.config({
+        debug: false,  //调式模式，设置为ture后会直接在网页上弹出调试信息，用于排查问题
+        appId: '{$result.appId}',
+        timestamp: '{$result.timestamp}',
+        nonceStr: '{$result.nonceStr}',
+        signature: '{$result.signature}',
+        jsApiList: [ // 所有要调用的 API 都要加到这个列表中
+            'checkJsApi',
+            'openLocation',
+            'getLocation'
+        ]
+    });
+    wx.ready(function () {
+
+        wx.checkJsApi({
+            jsApiList: [
+                'getLocation'
+            ],
+            success: function (res) {
+                console.log(res);
+                // alert(JSON.stringify(res));
+                // alert(JSON.stringify(res.checkResult.getLocation));
+                if (res.checkResult.getLocation == false) {
+                    alert('你的微信版本太低，不支持微信JS接口，请升级到最新的微信版本！');
+                    return;
+                }
+            }
+        });
+        wx.error(function (res) {
+
+            alert(res.errMsg);  //打印错误消息。及把 debug:false,设置为debug:ture就可以直接在网页上看到弹出的错误提示
+        });
+        wx.getLocation({
+            success: function (res) {
+                var latitude = res.latitude; // 纬度，浮点数，范围为90 ~ -90
+                var longitude = res.longitude; // 经度，浮点数，范围为180 ~ -180。
+                var speed = res.speed; // 速度，以米/每秒计
+                var accuracy = res.accuracy; // 位置精度
+                //alert(latitude+','+longitude+','+accuracy);
+                var la_lo = latitude+","+longitude;
+                // var data={
+                // 　　　　location:la_lo,
+                //           /*换成自己申请的key*/
+                // 　　　　key:"kTT2BZ-XDJWU-OUHVC-2IZIJ-QA27Q-5QFPHPB77",
+                // 　　　　　　get_poi:0
+                // 　　　　}
+                //     var url="http://apis.map.qq.com/ws/geocoder/v1/?";
+                //     data.output="jsonp";
+                //     $.ajax({
+                //         type:"get",
+                //         dataType:'jsonp',
+                //         data:data,
+                //         jsonp:"callback",
+                //         jsonpCallback:"QQmap",
+                //         url:url,
+                //         success:function(json){
+                //             /*json对象转为文本 var aToStr=JSON.stringify(a);*/
+                //             var toStr = JSON.stringify(json);
+                //             toStr=getFormatJsonStrFromString(toStr);
+                //             /*调用业务处理程序*/
+                //             suggestion_example&&suggestion_example($show,url_list,toStr);
+                //         },
+                //         error : function(err){alert("服务端错误，请刷新浏览器后重试")}
+
+                //     })
+
+               // http://apis.map.qq.com/tools/locpicker?search=1&type=0&backurl=https://php.51jjcx.com/&key=NN5BZ-IUBCD-3SZ4Z-PBX4T-PKOS2-TDF5B&referer=myapp
+//                 $.ajax({
+//                     type: "get",
+//                     url:
+//                         "https://apis.map.qq.com/ws/place/v1/suggestion?eyword="+
+//                         "&region=" + accuracy +
+//                         "&location=" + (latitude + "," + longitude) +
+////                         "&get_subpois=1&key=TT2BZ-XDJWU-OUHVC-2IZIJ-QA27Q-5QFPH&output=jsonp",
+//                     "&get_subpois=1&key=NN5BZ-IUBCD-3SZ4Z-PBX4T-PKOS2-TDF5B&output=jsonp",
+//                     dataType: "jsonp",
+//                     success: function(ress) {
+//                         //返回搜索结果
+//                         console.log(ress);
+//                     }
+//                 });
+
+//                wx.openLocation({
+//                    latitude:latitude, // 纬度，浮点数，范围为90 ~ -90
+//                    longitude:longitude, // 经度，浮点数，范围为180 ~ -180。
+//                    name: '格兰云天', // 位置名
+//                    address: '香坊区进乡街', // 地址详情说明
+//                    scale: 25, // 地图缩放级别,整形值,范围从1~28。默认为最大
+//                    infoUrl: 'http://www.wolfcode.cn/' // 在查看位置界面底部显示的超链接,可点击跳转
+//                });
+            },
+            cancel: function (res) {
+                alert('用户拒绝授权获取地理位置');
+            }
+        });
+    });
+</script>
+</body>
+</html>

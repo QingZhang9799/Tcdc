@@ -1,0 +1,78 @@
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+a,
+ul,
+li,
+p,
+button,
+header,
+nav,
+section,
+footer,
+main,
+span,
+div,
+input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    font-size: 0.26rem;
+    box-sizing: border-box;
+    color: rgba(51, 51, 51, 1);
+}
+
+input,
+button {
+    outline-style: none;
+    border-style: none;
+}
+
+.mt100 {
+    margin-top: 1rem;
+}
+
+.mb100 {
+    margin-bottom: 1rem;
+}
+
+.pt100 {
+    padding-top: 1rem;
+}
+
+.pb100 {
+    padding-bottom: 1rem;
+}
+
+.mt50 {
+    margin-top: 0.5rem;
+}
+
+.mb50 {
+    margin-bottom: 0.5rem;
+}
+
+.pt50 {
+    padding-top: 0.5rem;
+}
+
+.pb50 {
+    padding-bottom: 0.5rem;
+}

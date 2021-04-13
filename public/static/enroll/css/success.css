@@ -1,0 +1,54 @@
+html {
+  font-size: 100px;
+  height: 100%;
+}
+
+header img {
+  width: 0.25rem;
+  height: 0.25rem;
+  margin-left: 0.3rem;
+  margin-top: 0.4rem;
+}
+
+main {
+  text-align: center;
+}
+
+main > h1 {
+  margin-top: 1.15rem;
+  font-weight: 500;
+  color: #333333;
+  font-size: 0.36rem;
+}
+
+main > h3 {
+  margin-top: 0.62rem;
+  font-size: 0.28rem;
+  font-weight: 400;
+  color: #333333;
+}
+
+main > img {
+  margin-top: 0.68rem;
+  width: 4.44rem;
+  height: 4.44rem;
+}
+
+main > p {
+  font-size: 0.22rem;
+  font-weight: 400;
+  color: #999999;
+  margin-top: 0.25rem;
+}
+
+main > div {
+  margin-top: 1.57rem;
+}
+
+main > div > p {
+  font-size: 0.26rem;
+  font-weight: 400;
+  color: #666666;
+  line-height: 2;
+}
+/*# sourceMappingURL=success.css.map */
