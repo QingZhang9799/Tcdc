@@ -1,0 +1,26 @@
+2020-09-15 13:20:00  {"trade_no":"","refund_amount":"0.9","refund_reason":"正常退款"}
+2020-09-15 13:20:02  response: stdClass::__set_state(array(
+   'alipay_trade_refund_response' => 
+  stdClass::__set_state(array(
+     'code' => '40004',
+     'msg' => 'Business Failed',
+     'sub_code' => 'ACQ.INVALID_PARAMETER',
+     'sub_msg' => '参数无效：商户外部订单号不能和支付宝交易号同时为空',
+     'refund_fee' => '0.00',
+     'send_back_fee' => '0.00',
+  )),
+   'sign' => 'VLhLpTMebLMCbZU4le7cER53MrRiawEBHctqAvxstZrgp3WRPEPF70yw82QVYim0jGlQszqMkA54SyOtvBKx57vBzmRgBr0WZ5PrYwT4AlOLHyQi+NoMb5yuA9KkPR8c7RomOlu4oHfjS3lxR05z2QIqgOXskVwc4WOV5X1AWdgAXezT2rgqaEe9vvyU6rnDaB3/9noeQOWYu+Cth+0v1EErUX7N2dFuG5PM7uj2tC7qGxvOtQ4rujOa8OKD4h9cqnTLN4v3Uc+1Th+6PLjSZcDIBn2BDvvNRrovI/BIexUgsWLcbhJR8xfC6ETRau7gqDp4E9q3F7w2YuvoNuqm/w==',
+))
+2020-09-15 13:21:38  {"trade_no":"","refund_amount":"0.9","refund_reason":"正常退款"}
+2020-09-15 13:21:38  response: stdClass::__set_state(array(
+   'alipay_trade_refund_response' => 
+  stdClass::__set_state(array(
+     'code' => '40004',
+     'msg' => 'Business Failed',
+     'sub_code' => 'ACQ.INVALID_PARAMETER',
+     'sub_msg' => '参数无效：商户外部订单号不能和支付宝交易号同时为空',
+     'refund_fee' => '0.00',
+     'send_back_fee' => '0.00',
+  )),
+   'sign' => 'VLhLpTMebLMCbZU4le7cER53MrRiawEBHctqAvxstZrgp3WRPEPF70yw82QVYim0jGlQszqMkA54SyOtvBKx57vBzmRgBr0WZ5PrYwT4AlOLHyQi+NoMb5yuA9KkPR8c7RomOlu4oHfjS3lxR05z2QIqgOXskVwc4WOV5X1AWdgAXezT2rgqaEe9vvyU6rnDaB3/9noeQOWYu+Cth+0v1EErUX7N2dFuG5PM7uj2tC7qGxvOtQ4rujOa8OKD4h9cqnTLN4v3Uc+1Th+6PLjSZcDIBn2BDvvNRrovI/BIexUgsWLcbhJR8xfC6ETRau7gqDp4E9q3F7w2YuvoNuqm/w==',
+))

@@ -1183,6 +1183,26 @@ class Company extends Base
                 $inic['order_money'] = $vc['order_money'] ;
 
                 Db::name('company_consumption')->insert($inic);
+
+                //保存线上或者线下
+                $paymethod = [] ;
+                $is_lineon = 0 ;
+                $is_offline = 0 ;
+                if(!empty($vc['payMethod'])){
+                    foreach ($vc['payMethod'] as $ki=>$vi){
+                        if($vi == "线上"){
+                            $is_lineon = 1 ;
+                        }
+                        if($vi == "线下"){
+                            $is_offline = 1 ;
+                        }
+                    }
+                }
+                $paymethod['company_id'] = $company ;
+                $paymethod['is_lineon'] = $is_lineon ;
+                $paymethod['is_offline'] = $is_offline ;
+
+                Db::name('company_paymethod')->insert($paymethod) ;
             }
         }
         if(!empty($ratesSectionPriceForm)){

@@ -339,4 +339,58 @@ class Rewards extends Base
             ];
         }
     }
+
+    //查询所有未开始行程的订单
+    public function NotStartedOrder(){
+        if (input('?conducteur_id')) {
+            $params = [
+                "o.conducteur_id" => input('conducteur_id')
+            ];
+            $time = strtotime(date("Y-m-d",strtotime("-1 day"))) ;   //昨天时间
+            //根据司机id获取城市
+            $city_id = Db::name('conducteur')->where(['id' => input('conducteur_id')])->value('city_id');
+            $vehicle_id = Db::name('vehicle_binding')->where(['conducteur_id' => input('conducteur_id') ])->value('vehicle_id');
+            $vehicle = Db::name('vehicle')->where(['id' => $vehicle_id ])->find() ;
+
+            $data = Db::name('order')->alias('o')->field('o.id,o.origin,o.Destination,o.DepartTime,o.business_id,b.business_name,o.DepLongitude,o.DepLatitude,o.DestLongitude,o.DestLatitude
+            ,u.PassengerPhone as user_phone,o.company_id,u.PassengerName as user_name,u.star,o.user_id,o.status,o.classification')
+                ->join('mx_business b', 'b.id = o.business_id', 'left')
+                ->join('mx_user u', 'u.id = o.user_id','left')
+//                ->where($params)
+                ->where(['o.classification' => '预约'])//必须是预约
+                ->where(['o.city_id' => $city_id])//必须是司机的城市
+                ->where('o.status', 'eq', "2")
+                ->where(['o.business_id'=>$vehicle['business_id']])
+                ->where(['o.business_type_id'=>$vehicle['businesstype_id']])
+                ->where('o.DepartTime','gt',$time*1000)
+                ->order('o.id desc')
+                ->select();
+            foreach ($data as $key => $value) {
+                $arrive_time = Db::name('order_history')->where(['order_id' => $data['id']])->value('arrive_time');
+                if (!empty($arrive_time)) {
+                    $data[$key]['arrive_time'] = $arrive_time;
+                } else {
+                    $data[$key]['arrive_time'] = 0;
+                }
+                //返回预约延长时间
+                $restimatedDelayTime = Db::name('company')->where(['id'=>$value['company_id']])->value('restimatedDelayTime') ;
+                if (!empty($restimatedDelayTime)) {
+                    $data[$key]['restimatedDelayTime'] = $restimatedDelayTime;
+                } else {
+                    $data[$key]['restimatedDelayTime'] = 0;
+                }
+            }
+
+            return [
+                "code" => $data ? APICODE_SUCCESS : APICODE_EMPTYDATA,
+                "msg" => "查询成功",
+                "data" => $data,
+            ];
+        } else {
+            return [
+                "code" => APICODE_FORAMTERROR,
+                "msg" => "司机ID不能为空"
+            ];
+        }
+    }
 }
